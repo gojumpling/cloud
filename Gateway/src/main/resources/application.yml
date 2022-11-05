@@ -1,0 +1,32 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: gateway-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 10.86.88.170:8848
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      # 配置路由，注意这里是个列表，每一项都包含了很多信息
+      routes:
+        - id: item   # 路由名称
+          uri: lb://item-set-service  # 路由的地址，lb表示使用负载均衡到微服务，也可以使用http正常转发
+          predicates: # 路由规则，断言什么请求会被路由
+            - Path=/Itemset/**  # 只要是访问的这个路径，一律都被路由到上面指定的服务
+
+#        - id: answer   # 路由名称
+#          uri: lb://answer-service  # 路由的地址，lb表示使用负载均衡到微服务，也可以使用http正常转发
+#          predicates: # 路由规则，断言什么请求会被路由
+#            - Path=/Itemset/**  # 只要是访问的这个路径，一律都被路由到上面指定的服务
+
+
+
+
+
+

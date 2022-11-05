@@ -7,13 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="item" />
+        <module name="Answer" />
         <module name="common" />
         <module name="ItemSet" />
+        <module name="Gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="borrow" target="1.8" />
+      <module name="Eureka" target="1.8" />
+      <module name="item" target="1.8" />
       <module name="itemsetlist" target="1.8" />
       <module name="service-itemset" target="1.8" />
       <module name="service-user" target="1.8" />
@@ -22,6 +25,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Answer" options="-parameters" />
+      <module name="Eureka" options="-parameters" />
+      <module name="Gateway" options="-parameters" />
       <module name="ItemSet" options="-parameters" />
       <module name="borrow" options="-parameters" />
       <module name="cloud" options="" />

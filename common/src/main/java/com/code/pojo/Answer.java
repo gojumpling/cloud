@@ -16,7 +16,7 @@ import lombok.experimental.Accessors;
  * </p>
  *
  * @author xiaoshuai
- * @since 2022-11-04
+ * @since 2022-11-05
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
@@ -26,20 +26,22 @@ public class Answer implements Serializable {
     private static final long serialVersionUID = 1L;
 
     @TableId(value = "answer_id", type = IdType.AUTO)
-    private Integer answerId;
+    private long answerId;
 
     private String content;
 
-    private Integer score;
+    private long grade;
 
     private Date time;
 
-    @TableField("itemSet_id")
-    private Integer itemsetId;
+    private long itemsetId;
 
-    private Integer itemId;
+    private long itemId;
 
-    private String studentNo;
+    private String userNo;
+
+    @TableField("checkingRate")
+    private Float checkingRate;
 
 
 }

@@ -54,10 +54,10 @@ public class codeGenerator {
 
         // 数据源配置
         DataSourceConfig dsc = new DataSourceConfig();
-        dsc.setUrl("jdbc:mysql://120.25.192.9:3306/cloud?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8");
+        dsc.setUrl("jdbc:mysql://120.25.192.9:3306/cloud0?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8");
         dsc.setDriverName("com.mysql.cj.jdbc.Driver");
-        dsc.setUsername("cloud");
-        dsc.setPassword("cloud");
+        dsc.setUsername("cloud0");
+        dsc.setPassword("cloud0");
         mpg.setDataSource(dsc);
 
         // 包配置

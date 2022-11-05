@@ -14,7 +14,7 @@ import lombok.experimental.Accessors;
  * </p>
  *
  * @author xiaoshuai
- * @since 2022-11-04
+ * @since 2022-11-05
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
@@ -24,7 +24,7 @@ public class Testcase implements Serializable {
     private static final long serialVersionUID = 1L;
 
     @TableId(value = "testcase_id", type = IdType.AUTO)
-    private Integer testcaseId;
+    private long testcaseId;
 
     private String testcaseInput;
 
@@ -32,11 +32,11 @@ public class Testcase implements Serializable {
 
     private String testcaseName;
 
-    private Integer testcaseGrade;
+    private long testcaseGrade;
 
-    private Integer flag;
+    private long flag;
 
-    private Integer itemId;
+    private long itemId;
 
 
 }

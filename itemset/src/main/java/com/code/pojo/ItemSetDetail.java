@@ -7,7 +7,6 @@ import java.util.List;
 @Data
 public class ItemSetDetail {
 
-    private ItemSet itemSet;
+    private Itemset itemset;
     private List<Item> itemList;
-
 }
