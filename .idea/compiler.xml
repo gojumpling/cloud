@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="common" />
         <module name="ItemSet" />
+        <module name="Answer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,6 +24,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Answer" options="-parameters" />
       <module name="Eureka" options="-parameters" />
       <module name="ItemSet" options="-parameters" />
       <module name="borrow" options="-parameters" />

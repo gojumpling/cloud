@@ -1,0 +1,8 @@
+2022-11-07 20:03:44,801 INFO DEFAULT_GROUP@@answerService {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.2:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-07 20:03:44,805 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answerService, ips: 10.86.88.2:8081_true,
+
+2022-11-07 20:03:55,134 INFO DEFAULT_GROUP@@itemSetService {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.2:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-07 20:03:55,134 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 10.86.88.2:8080_true,
+

@@ -1,0 +1,268 @@
+2022-11-07 20:03:45,813 INFO DEFAULT_GROUP@@answerService is changed, add it to push queue.
+
+2022-11-07 20:03:45,825 INFO serviceName: DEFAULT_GROUP@@answerService changed, schedule push for: 10.86.88.2:59150, agent: Nacos-Java-Client:v1.4.2, key: 10.86.88.2,59150,202840442080900
+
+2022-11-07 20:03:45,825 INFO send udp packet: 10.86.88.2,59150,202840442080900
+
+2022-11-07 20:03:45,837 INFO received ack: {"type": "push-ack", "lastRefTime":"202840442080900", "data":""} from: 10.86.88.2:59150, cost: 11 ms, unacked: 0, total push: 1
+
+2022-11-07 20:03:56,138 INFO DEFAULT_GROUP@@itemSetService is changed, add it to push queue.
+
+2022-11-07 20:03:56,140 INFO serviceName: DEFAULT_GROUP@@itemSetService changed, schedule push for: 10.86.88.2:54484, agent: Nacos-Java-Client:v1.4.2, key: 10.86.88.2,54484,202850760683300
+
+2022-11-07 20:03:56,140 INFO send udp packet: 10.86.88.2,54484,202850760683300
+
+2022-11-07 20:03:56,146 INFO received ack: {"type": "push-ack", "lastRefTime":"202850760683300", "data":""} from: 10.86.88.2:54484, cost: 6 ms, unacked: 0, total push: 2
+
+2022-11-07 20:09:20,229 INFO DEFAULT_GROUP@@answerService is changed, add it to push queue.
+
+2022-11-07 20:09:20,230 INFO serviceName: DEFAULT_GROUP@@answerService changed, schedule push for: 10.86.88.2:59150, agent: Nacos-Java-Client:v1.4.2, key: 10.86.88.2,59150,203174852037900
+
+2022-11-07 20:09:20,230 INFO send udp packet: 10.86.88.2,59150,203174852037900
+
+2022-11-07 20:09:20,237 INFO received ack: {"type": "push-ack", "lastRefTime":"203174852037900", "data":""} from: 10.86.88.2:59150, cost: 7 ms, unacked: 0, total push: 3
+
+2022-11-07 20:09:20,277 INFO DEFAULT_GROUP@@itemSetService is changed, add it to push queue.
+
+2022-11-07 20:09:20,278 INFO serviceName: DEFAULT_GROUP@@itemSetService changed, schedule push for: 10.86.88.2:54484, agent: Nacos-Java-Client:v1.4.2, key: 10.86.88.2,54484,203174899840000
+
+2022-11-07 20:09:20,278 INFO send udp packet: 10.86.88.2,54484,203174899840000
+
+2022-11-07 20:09:20,285 INFO received ack: {"type": "push-ack", "lastRefTime":"203174899840000", "data":""} from: 10.86.88.2:54484, cost: 7 ms, unacked: 0, total push: 4
+
+2022-11-07 20:09:43,772 INFO DEFAULT_GROUP@@answerService is changed, add it to push queue.
+
+2022-11-07 20:09:43,773 INFO serviceName: DEFAULT_GROUP@@answerService changed, schedule push for: 10.86.88.2:60356, agent: Nacos-Java-Client:v1.4.2, key: 10.86.88.2,60356,203198394455300
+
+2022-11-07 20:09:43,773 INFO send udp packet: 10.86.88.2,60356,203198394455300
+
+2022-11-07 20:09:43,779 INFO received ack: {"type": "push-ack", "lastRefTime":"203198394455300", "data":""} from: 10.86.88.2:60356, cost: 6 ms, unacked: 0, total push: 5
+
+2022-11-07 20:09:57,336 INFO DEFAULT_GROUP@@itemSetService is changed, add it to push queue.
+
+2022-11-07 20:09:57,336 INFO serviceName: DEFAULT_GROUP@@itemSetService changed, schedule push for: 10.86.88.2:55940, agent: Nacos-Java-Client:v1.4.2, key: 10.86.88.2,55940,203211958305800
+
+2022-11-07 20:09:57,336 INFO send udp packet: 10.86.88.2,55940,203211958305800
+
+2022-11-07 20:09:57,339 INFO received ack: {"type": "push-ack", "lastRefTime":"203211958305800", "data":""} from: 10.86.88.2:55940, cost: 3 ms, unacked: 0, total push: 6
+
+2022-11-07 20:12:12,573 INFO DEFAULT_GROUP@@answerService is changed, add it to push queue.
+
+2022-11-07 20:12:12,573 INFO serviceName: DEFAULT_GROUP@@answerService changed, schedule push for: 10.86.88.2:55940, agent: Nacos-Java-Client:v1.4.2, key: 10.86.88.2,55940,203347195524800
+
+2022-11-07 20:12:12,573 INFO send udp packet: 10.86.88.2,55940,203347195524800
+
+2022-11-07 20:12:12,573 INFO serviceName: DEFAULT_GROUP@@answerService changed, schedule push for: 10.86.88.2:60356, agent: Nacos-Java-Client:v1.4.2, key: 10.86.88.2,60356,203347195524800
+
+2022-11-07 20:12:12,573 INFO send udp packet: 10.86.88.2,60356,203347195524800
+
+2022-11-07 20:12:12,605 INFO DEFAULT_GROUP@@itemSetService is changed, add it to push queue.
+
+2022-11-07 20:12:12,605 INFO serviceName: DEFAULT_GROUP@@itemSetService changed, schedule push for: 10.86.88.2:55940, agent: Nacos-Java-Client:v1.4.2, key: 10.86.88.2,55940,203347227540700
+
+2022-11-07 20:12:12,605 INFO send udp packet: 10.86.88.2,55940,203347227540700
+
+2022-11-07 20:12:21,343 INFO DEFAULT_GROUP@@answerService is changed, add it to push queue.
+
+2022-11-07 20:12:21,344 INFO serviceName: DEFAULT_GROUP@@answerService changed, schedule push for: 10.86.88.2:54570, agent: Nacos-Java-Client:v1.4.2, key: 10.86.88.2,54570,203355965913600
+
+2022-11-07 20:12:21,344 INFO send udp packet: 10.86.88.2,54570,203355965913600
+
+2022-11-07 20:12:21,348 INFO received ack: {"type": "push-ack", "lastRefTime":"203355965913600", "data":""} from: 10.86.88.2:54570, cost: 4 ms, unacked: 3, total push: 10
+
+2022-11-07 20:12:22,575 INFO retry to push data, key: 10.86.88.2,55940,203347195524800
+
+2022-11-07 20:12:22,576 INFO send udp packet: 10.86.88.2,55940,203347195524800
+
+2022-11-07 20:12:22,576 INFO retry to push data, key: 10.86.88.2,60356,203347195524800
+
+2022-11-07 20:12:22,576 INFO send udp packet: 10.86.88.2,60356,203347195524800
+
+2022-11-07 20:12:22,621 INFO retry to push data, key: 10.86.88.2,55940,203347227540700
+
+2022-11-07 20:12:22,621 INFO send udp packet: 10.86.88.2,55940,203347227540700
+
+2022-11-07 20:12:29,382 INFO DEFAULT_GROUP@@itemSetService is changed, add it to push queue.
+
+2022-11-07 20:12:29,383 INFO serviceName: DEFAULT_GROUP@@itemSetService changed, schedule push for: 10.86.88.2:62006, agent: Nacos-Java-Client:v1.4.2, key: 10.86.88.2,62006,203364004959700
+
+2022-11-07 20:12:29,383 INFO send udp packet: 10.86.88.2,62006,203364004959700
+
+2022-11-07 20:12:29,386 INFO received ack: {"type": "push-ack", "lastRefTime":"203364004959700", "data":""} from: 10.86.88.2:62006, cost: 3 ms, unacked: 3, total push: 11
+
+2022-11-07 20:12:32,579 INFO retry to push data, key: 10.86.88.2,55940,203347195524800
+
+2022-11-07 20:12:32,580 WARN max re-push times reached, retry times 2, key: 10.86.88.2,55940,203347195524800
+
+2022-11-07 20:12:32,580 INFO retry to push data, key: 10.86.88.2,60356,203347195524800
+
+2022-11-07 20:12:32,580 WARN max re-push times reached, retry times 2, key: 10.86.88.2,60356,203347195524800
+
+2022-11-07 20:12:32,627 INFO retry to push data, key: 10.86.88.2,55940,203347227540700
+
+2022-11-07 20:12:32,627 WARN max re-push times reached, retry times 2, key: 10.86.88.2,55940,203347227540700
+
+2022-11-07 20:14:17,231 INFO DEFAULT_GROUP@@answerService is changed, add it to push queue.
+
+2022-11-07 20:14:17,231 INFO serviceName: DEFAULT_GROUP@@answerService changed, schedule push for: 10.86.88.2:54570, agent: Nacos-Java-Client:v1.4.2, key: 10.86.88.2,54570,203471853450800
+
+2022-11-07 20:14:17,231 INFO send udp packet: 10.86.88.2,54570,203471853450800
+
+2022-11-07 20:14:17,231 INFO serviceName: DEFAULT_GROUP@@answerService changed, schedule push for: 10.86.88.2:62006, agent: Nacos-Java-Client:v1.4.2, key: 10.86.88.2,62006,203471853450800
+
+2022-11-07 20:14:17,231 INFO send udp packet: 10.86.88.2,62006,203471853450800
+
+2022-11-07 20:14:17,239 INFO received ack: {"type": "push-ack", "lastRefTime":"203471853450800", "data":""} from: 10.86.88.2:62006, cost: 8 ms, unacked: 1, total push: 13
+
+2022-11-07 20:14:17,239 INFO received ack: {"type": "push-ack", "lastRefTime":"203471853450800", "data":""} from: 10.86.88.2:54570, cost: 8 ms, unacked: 0, total push: 13
+
+2022-11-07 20:14:30,471 INFO DEFAULT_GROUP@@answerService is changed, add it to push queue.
+
+2022-11-07 20:14:30,471 INFO serviceName: DEFAULT_GROUP@@answerService changed, schedule push for: 10.86.88.2:62006, agent: Nacos-Java-Client:v1.4.2, key: 10.86.88.2,62006,203485093514700
+
+2022-11-07 20:14:30,471 INFO send udp packet: 10.86.88.2,62006,203485093514700
+
+2022-11-07 20:14:30,472 INFO serviceName: DEFAULT_GROUP@@answerService changed, schedule push for: 10.86.88.2:62555, agent: Nacos-Java-Client:v1.4.2, key: 10.86.88.2,62555,203485093514700
+
+2022-11-07 20:14:30,472 INFO send udp packet: 10.86.88.2,62555,203485093514700
+
+2022-11-07 20:14:30,476 INFO received ack: {"type": "push-ack", "lastRefTime":"203485093514700", "data":""} from: 10.86.88.2:62555, cost: 4 ms, unacked: 1, total push: 15
+
+2022-11-07 20:14:30,480 INFO received ack: {"type": "push-ack", "lastRefTime":"203485093514700", "data":""} from: 10.86.88.2:62006, cost: 9 ms, unacked: 0, total push: 15
+
+2022-11-07 20:22:55,521 INFO DEFAULT_GROUP@@answerService is changed, add it to push queue.
+
+2022-11-07 20:22:55,521 INFO serviceName: DEFAULT_GROUP@@answerService changed, schedule push for: 10.86.88.2:62006, agent: Nacos-Java-Client:v1.4.2, key: 10.86.88.2,62006,203992437383200
+
+2022-11-07 20:22:55,521 INFO send udp packet: 10.86.88.2,62006,203992437383200
+
+2022-11-07 20:22:55,523 INFO serviceName: DEFAULT_GROUP@@answerService changed, schedule push for: 10.86.88.2:62555, agent: Nacos-Java-Client:v1.4.2, key: 10.86.88.2,62555,203992437383200
+
+2022-11-07 20:22:55,523 INFO send udp packet: 10.86.88.2,62555,203992437383200
+
+2022-11-07 20:22:55,530 INFO received ack: {"type": "push-ack", "lastRefTime":"203992437383200", "data":""} from: 10.86.88.2:62006, cost: 9 ms, unacked: 1, total push: 17
+
+2022-11-07 20:22:55,530 INFO received ack: {"type": "push-ack", "lastRefTime":"203992437383200", "data":""} from: 10.86.88.2:62555, cost: 7 ms, unacked: 0, total push: 17
+
+2022-11-07 20:22:55,537 INFO DEFAULT_GROUP@@itemSetService is changed, add it to push queue.
+
+2022-11-07 20:22:55,537 INFO serviceName: DEFAULT_GROUP@@itemSetService changed, schedule push for: 10.86.88.2:62006, agent: Nacos-Java-Client:v1.4.2, key: 10.86.88.2,62006,203992452493300
+
+2022-11-07 20:22:55,537 INFO send udp packet: 10.86.88.2,62006,203992452493300
+
+2022-11-07 20:22:55,547 INFO received ack: {"type": "push-ack", "lastRefTime":"203992452493300", "data":""} from: 10.86.88.2:62006, cost: 10 ms, unacked: 0, total push: 18
+
+2022-11-07 20:23:04,857 INFO DEFAULT_GROUP@@answerService is changed, add it to push queue.
+
+2022-11-07 20:23:04,859 INFO serviceName: DEFAULT_GROUP@@answerService changed, schedule push for: 10.86.88.2:60436, agent: Nacos-Java-Client:v1.4.2, key: 10.86.88.2,60436,204001772613800
+
+2022-11-07 20:23:04,859 INFO send udp packet: 10.86.88.2,60436,204001772613800
+
+2022-11-07 20:23:04,866 INFO received ack: {"type": "push-ack", "lastRefTime":"204001772613800", "data":""} from: 10.86.88.2:60436, cost: 7 ms, unacked: 0, total push: 19
+
+2022-11-07 20:23:13,156 INFO DEFAULT_GROUP@@itemSetService is changed, add it to push queue.
+
+2022-11-07 20:23:13,157 INFO serviceName: DEFAULT_GROUP@@itemSetService changed, schedule push for: 10.86.88.2:57690, agent: Nacos-Java-Client:v1.4.2, key: 10.86.88.2,57690,204010072401900
+
+2022-11-07 20:23:13,157 INFO send udp packet: 10.86.88.2,57690,204010072401900
+
+2022-11-07 20:23:13,164 INFO received ack: {"type": "push-ack", "lastRefTime":"204010072401900", "data":""} from: 10.86.88.2:57690, cost: 7 ms, unacked: 0, total push: 20
+
+2022-11-07 20:28:56,192 INFO DEFAULT_GROUP@@itemSetService is changed, add it to push queue.
+
+2022-11-07 20:28:56,192 INFO serviceName: DEFAULT_GROUP@@itemSetService changed, schedule push for: 10.86.88.2:57690, agent: Nacos-Java-Client:v1.4.2, key: 10.86.88.2,57690,204353107369800
+
+2022-11-07 20:28:56,192 INFO send udp packet: 10.86.88.2,57690,204353107369800
+
+2022-11-07 20:28:56,199 INFO received ack: {"type": "push-ack", "lastRefTime":"204353107369800", "data":""} from: 10.86.88.2:57690, cost: 7 ms, unacked: 0, total push: 21
+
+2022-11-07 20:29:12,881 INFO DEFAULT_GROUP@@itemSetService is changed, add it to push queue.
+
+2022-11-07 20:29:12,881 INFO serviceName: DEFAULT_GROUP@@itemSetService changed, schedule push for: 10.86.88.2:51227, agent: Nacos-Java-Client:v1.4.2, key: 10.86.88.2,51227,204369796737900
+
+2022-11-07 20:29:12,881 INFO send udp packet: 10.86.88.2,51227,204369796737900
+
+2022-11-07 20:29:12,885 INFO received ack: {"type": "push-ack", "lastRefTime":"204369796737900", "data":""} from: 10.86.88.2:51227, cost: 4 ms, unacked: 0, total push: 22
+
+2022-11-07 20:30:12,380 INFO DEFAULT_GROUP@@answerService is changed, add it to push queue.
+
+2022-11-07 20:30:12,380 INFO serviceName: DEFAULT_GROUP@@answerService changed, schedule push for: 10.86.88.2:60436, agent: Nacos-Java-Client:v1.4.2, key: 10.86.88.2,60436,204429296108700
+
+2022-11-07 20:30:12,380 INFO send udp packet: 10.86.88.2,60436,204429296108700
+
+2022-11-07 20:30:12,411 INFO DEFAULT_GROUP@@itemSetService is changed, add it to push queue.
+
+2022-11-07 20:30:12,412 INFO serviceName: DEFAULT_GROUP@@itemSetService changed, schedule push for: 10.86.88.2:51227, agent: Nacos-Java-Client:v1.4.2, key: 10.86.88.2,51227,204429327095800
+
+2022-11-07 20:30:12,412 INFO send udp packet: 10.86.88.2,51227,204429327095800
+
+2022-11-07 20:30:20,096 INFO DEFAULT_GROUP@@answerService is changed, add it to push queue.
+
+2022-11-07 20:30:20,096 INFO serviceName: DEFAULT_GROUP@@answerService changed, schedule push for: 10.86.88.2:58245, agent: Nacos-Java-Client:v1.4.2, key: 10.86.88.2,58245,204437011623800
+
+2022-11-07 20:30:20,096 INFO send udp packet: 10.86.88.2,58245,204437011623800
+
+2022-11-07 20:30:20,103 INFO received ack: {"type": "push-ack", "lastRefTime":"204437011623800", "data":""} from: 10.86.88.2:58245, cost: 7 ms, unacked: 2, total push: 25
+
+2022-11-07 20:30:22,395 INFO retry to push data, key: 10.86.88.2,60436,204429296108700
+
+2022-11-07 20:30:22,395 INFO send udp packet: 10.86.88.2,60436,204429296108700
+
+2022-11-07 20:30:22,414 INFO retry to push data, key: 10.86.88.2,51227,204429327095800
+
+2022-11-07 20:30:22,414 INFO send udp packet: 10.86.88.2,51227,204429327095800
+
+2022-11-07 20:30:26,445 INFO DEFAULT_GROUP@@itemSetService is changed, add it to push queue.
+
+2022-11-07 20:30:26,445 INFO serviceName: DEFAULT_GROUP@@itemSetService changed, schedule push for: 10.86.88.2:63663, agent: Nacos-Java-Client:v1.4.2, key: 10.86.88.2,63663,204443360947200
+
+2022-11-07 20:30:26,445 INFO send udp packet: 10.86.88.2,63663,204443360947200
+
+2022-11-07 20:30:26,449 INFO received ack: {"type": "push-ack", "lastRefTime":"204443360947200", "data":""} from: 10.86.88.2:63663, cost: 4 ms, unacked: 2, total push: 26
+
+2022-11-07 20:30:32,401 INFO retry to push data, key: 10.86.88.2,60436,204429296108700
+
+2022-11-07 20:30:32,401 WARN max re-push times reached, retry times 2, key: 10.86.88.2,60436,204429296108700
+
+2022-11-07 20:30:32,417 INFO retry to push data, key: 10.86.88.2,51227,204429327095800
+
+2022-11-07 20:30:32,417 WARN max re-push times reached, retry times 2, key: 10.86.88.2,51227,204429327095800
+
+2022-11-07 20:31:06,306 INFO DEFAULT_GROUP@@itemSetService is changed, add it to push queue.
+
+2022-11-07 20:31:06,306 INFO serviceName: DEFAULT_GROUP@@itemSetService changed, schedule push for: 10.86.88.2:63663, agent: Nacos-Java-Client:v1.4.2, key: 10.86.88.2,63663,204483222322600
+
+2022-11-07 20:31:06,306 INFO send udp packet: 10.86.88.2,63663,204483222322600
+
+2022-11-07 20:31:06,314 INFO received ack: {"type": "push-ack", "lastRefTime":"204483222322600", "data":""} from: 10.86.88.2:63663, cost: 8 ms, unacked: 0, total push: 27
+
+2022-11-07 20:31:21,766 INFO DEFAULT_GROUP@@itemSetService is changed, add it to push queue.
+
+2022-11-07 20:31:21,766 INFO serviceName: DEFAULT_GROUP@@itemSetService changed, schedule push for: 10.86.88.2:53826, agent: Nacos-Java-Client:v1.4.2, key: 10.86.88.2,53826,204498681712900
+
+2022-11-07 20:31:21,766 INFO send udp packet: 10.86.88.2,53826,204498681712900
+
+2022-11-07 20:31:21,769 INFO received ack: {"type": "push-ack", "lastRefTime":"204498681712900", "data":""} from: 10.86.88.2:53826, cost: 3 ms, unacked: 0, total push: 28
+
+2022-11-07 20:34:14,387 INFO DEFAULT_GROUP@@answerService is changed, add it to push queue.
+
+2022-11-07 20:34:14,387 INFO serviceName: DEFAULT_GROUP@@answerService changed, schedule push for: 10.86.88.2:58245, agent: Nacos-Java-Client:v1.4.2, key: 10.86.88.2,58245,204671302595700
+
+2022-11-07 20:34:14,388 INFO send udp packet: 10.86.88.2,58245,204671302595700
+
+2022-11-07 20:34:14,388 INFO serviceName: DEFAULT_GROUP@@answerService changed, schedule push for: 10.86.88.2:53826, agent: Nacos-Java-Client:v1.4.2, key: 10.86.88.2,53826,204671302595700
+
+2022-11-07 20:34:14,388 INFO send udp packet: 10.86.88.2,53826,204671302595700
+
+2022-11-07 20:34:14,395 INFO received ack: {"type": "push-ack", "lastRefTime":"204671302595700", "data":""} from: 10.86.88.2:58245, cost: 7 ms, unacked: 1, total push: 30
+
+2022-11-07 20:34:14,396 INFO received ack: {"type": "push-ack", "lastRefTime":"204671302595700", "data":""} from: 10.86.88.2:53826, cost: 8 ms, unacked: 0, total push: 30
+
+2022-11-07 20:34:14,417 INFO DEFAULT_GROUP@@itemSetService is changed, add it to push queue.
+
+2022-11-07 20:34:14,418 INFO serviceName: DEFAULT_GROUP@@itemSetService changed, schedule push for: 10.86.88.2:53826, agent: Nacos-Java-Client:v1.4.2, key: 10.86.88.2,53826,204671333554900
+
+2022-11-07 20:34:14,418 INFO send udp packet: 10.86.88.2,53826,204671333554900
+
+2022-11-07 20:34:14,423 INFO received ack: {"type": "push-ack", "lastRefTime":"204671333554900", "data":""} from: 10.86.88.2:53826, cost: 5 ms, unacked: 0, total push: 31
+
