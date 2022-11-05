@@ -15,7 +15,7 @@ import lombok.experimental.Accessors;
  * </p>
  *
  * @author xiaoshuai
- * @since 2022-11-04
+ * @since 2022-11-05
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
@@ -25,11 +25,11 @@ public class Item implements Serializable {
     private static final long serialVersionUID = 1L;
 
     @TableId(value = "item_id", type = IdType.AUTO)
-    private Integer itemId;
+    private long itemId;
 
     private String itemTitle;
 
-    private Integer itemGrade;
+    private long itemGrade;
 
     private String itemType;
 
@@ -39,12 +39,14 @@ public class Item implements Serializable {
 
     private String itemLanguage;
 
-    private Integer itemDifficulty;
+    private long itemDifficulty;
 
     private String itemKnowledge;
 
-    @TableField("itemSet_id")
-    private Integer itemsetId;
+    private long itemsetId;
+
+    @TableField("passingRate")
+    private Float passingRate;
 
 
 }

@@ -1,10 +1,8 @@
 package com.code.pojo;
 
 import com.baomidou.mybatisplus.annotation.IdType;
-import java.util.Date;
 import com.baomidou.mybatisplus.annotation.Version;
 import com.baomidou.mybatisplus.annotation.TableId;
-import com.baomidou.mybatisplus.annotation.TableField;
 import java.io.Serializable;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -21,27 +19,28 @@ import lombok.experimental.Accessors;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-public class Answer implements Serializable {
+public class User implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-    @TableId(value = "answer_id", type = IdType.AUTO)
-    private long answerId;
-
-    private String content;
-
-    private long grade;
-
-    private Date time;
-
-    private long itemsetId;
-
-    private long itemId;
+    @TableId(value = "user_id", type = IdType.AUTO)
+    private long userId;
 
     private String userNo;
 
-    @TableField("checkingRate")
-    private Float checkingRate;
+    private String userPwd;
+
+    private String userEmail;
+
+    private String userName;
+
+    private String userSchool;
+
+    private String userPhone;
+
+    private String userRole;
+
+    private String clazzNo;
 
 
 }

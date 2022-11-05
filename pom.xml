@@ -5,9 +5,9 @@
     <packaging>pom</packaging>
     <modules>
 
-        <module>itemset</module>
-        <module>item</module>
+        <module>ItemSet</module>
         <module>common</module>
+
 
     </modules>
     <parent>
@@ -57,11 +57,8 @@
         </dependency>
 
 
-        <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus-boot-starter</artifactId>
-            <version>3.0.5</version>
-        </dependency>
+
+
 
         <!--        代码生成器依赖-->
         <dependency>
@@ -84,7 +81,28 @@
 
 
 
+
     </dependencies>
+
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>2021.0.1</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>3.0.5</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
 
 
 

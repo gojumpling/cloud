@@ -21,27 +21,28 @@ import lombok.experimental.Accessors;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-public class Answer implements Serializable {
+public class Itemset implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-    @TableId(value = "answer_id", type = IdType.AUTO)
-    private long answerId;
-
-    private String content;
-
-    private long grade;
-
-    private Date time;
-
+    @TableId(value = "itemset_id", type = IdType.AUTO)
     private long itemsetId;
 
-    private long itemId;
+    private String itemsetTitle;
+
+    private long itemsetGrade;
+
+    private String itemsetType;
+
+    private String itemsetNotice;
+
+    @TableField("itemset_startTime")
+    private Date itemsetStarttime;
+
+    @TableField("itemset_endTIme")
+    private Date itemsetEndtime;
 
     private String userNo;
-
-    @TableField("checkingRate")
-    private Float checkingRate;
 
 
 }
