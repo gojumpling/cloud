@@ -1,0 +1,144 @@
+2022-11-07 20:03:44,801 INFO DEFAULT_GROUP@@answerService {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.2:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-07 20:03:44,805 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answerService, ips: 10.86.88.2:8081_true,
+
+2022-11-07 20:03:55,134 INFO DEFAULT_GROUP@@itemSetService {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.2:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-07 20:03:55,134 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 10.86.88.2:8080_true,
+
+2022-11-07 20:09:19,229 INFO DEFAULT_GROUP@@answerService {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.2:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-07 20:09:19,229 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answerService, ips: 
+
+2022-11-07 20:09:19,273 INFO DEFAULT_GROUP@@itemSetService {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.2:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-07 20:09:19,273 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 
+
+2022-11-07 20:09:42,753 INFO DEFAULT_GROUP@@answerService {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.2:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-07 20:09:42,753 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answerService, ips: 10.86.88.2:8081_true,
+
+2022-11-07 20:09:56,321 INFO DEFAULT_GROUP@@itemSetService {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.2:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-07 20:09:56,321 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 10.86.88.2:8080_true,
+
+2022-11-07 20:12:11,562 INFO DEFAULT_GROUP@@answerService {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.2:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-07 20:12:11,562 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answerService, ips: 
+
+2022-11-07 20:12:11,588 INFO DEFAULT_GROUP@@itemSetService {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.2:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-07 20:12:11,588 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 
+
+2022-11-07 20:12:20,334 INFO DEFAULT_GROUP@@answerService {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.2:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-07 20:12:20,334 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answerService, ips: 10.86.88.2:8081_true,
+
+2022-11-07 20:12:28,375 INFO DEFAULT_GROUP@@itemSetService {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.2:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-07 20:12:28,376 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 10.86.88.2:8080_true,
+
+2022-11-07 20:14:16,227 INFO DEFAULT_GROUP@@answerService {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.2:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-07 20:14:16,227 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answerService, ips: 
+
+2022-11-07 20:14:29,458 INFO DEFAULT_GROUP@@answerService {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.2:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-07 20:14:29,458 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answerService, ips: 10.86.88.2:8081_true,
+
+2022-11-07 20:22:54,510 INFO DEFAULT_GROUP@@answerService {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.2:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-07 20:22:54,510 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answerService, ips: 
+
+2022-11-07 20:22:54,533 INFO DEFAULT_GROUP@@itemSetService {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.2:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-07 20:22:54,533 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 
+
+2022-11-07 20:23:03,804 INFO DEFAULT_GROUP@@answerService {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.2:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-07 20:23:03,804 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answerService, ips: 10.86.88.2:8081_true,
+
+2022-11-07 20:23:12,151 INFO DEFAULT_GROUP@@itemSetService {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.2:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-07 20:23:12,151 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 10.86.88.2:8080_true,
+
+2022-11-07 20:28:55,188 INFO DEFAULT_GROUP@@itemSetService {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.2:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-07 20:28:55,188 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 
+
+2022-11-07 20:29:11,871 INFO DEFAULT_GROUP@@itemSetService {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.2:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-07 20:29:11,871 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 10.86.88.2:8080_true,
+
+2022-11-07 20:30:11,367 INFO DEFAULT_GROUP@@answerService {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.2:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-07 20:30:11,367 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answerService, ips: 
+
+2022-11-07 20:30:11,397 INFO DEFAULT_GROUP@@itemSetService {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.2:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-07 20:30:11,397 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 
+
+2022-11-07 20:30:19,089 INFO DEFAULT_GROUP@@answerService {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.2:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-07 20:30:19,089 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answerService, ips: 10.86.88.2:8081_true,
+
+2022-11-07 20:30:25,436 INFO DEFAULT_GROUP@@itemSetService {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.2:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-07 20:30:25,436 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 10.86.88.2:8080_true,
+
+2022-11-07 20:31:05,302 INFO DEFAULT_GROUP@@itemSetService {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.2:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-07 20:31:05,302 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 
+
+2022-11-07 20:31:20,753 INFO DEFAULT_GROUP@@itemSetService {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.2:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-07 20:31:20,753 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 10.86.88.2:8080_true,
+
+2022-11-07 20:34:13,382 INFO DEFAULT_GROUP@@answerService {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.2:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-07 20:34:13,382 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answerService, ips: 
+
+2022-11-07 20:34:13,408 INFO DEFAULT_GROUP@@itemSetService {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.2:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-07 20:34:13,408 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 
+
+2022-11-07 21:13:32,659 INFO DEFAULT_GROUP@@answerService {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.2:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-07 21:13:32,659 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answerService, ips: 10.86.88.2:8081_true,
+
+2022-11-07 21:24:44,395 INFO DEFAULT_GROUP@@itemSetService {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.2:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-07 21:24:44,396 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 10.86.88.2:8080_true,
+
+2022-11-07 21:28:37,365 INFO DEFAULT_GROUP@@answerService {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.2:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-07 21:28:37,365 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answerService, ips: 
+
+2022-11-07 21:28:37,401 INFO DEFAULT_GROUP@@itemSetService {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.2:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-07 21:28:37,401 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 
+
+2022-11-07 21:28:52,369 INFO DEFAULT_GROUP@@answerService {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.2:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-07 21:28:52,369 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answerService, ips: 10.86.88.2:8081_true,
+
+2022-11-07 21:29:30,060 INFO DEFAULT_GROUP@@itemSetService {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.2:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-07 21:29:30,060 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 10.86.88.2:8080_true,
+
+2022-11-07 21:35:30,535 INFO DEFAULT_GROUP@@itemSetService {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.2:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-07 21:35:30,536 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 
+
+2022-11-07 21:35:52,627 INFO DEFAULT_GROUP@@itemSetService {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.2:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-07 21:35:52,627 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 10.86.88.2:8080_true,
+
+2022-11-07 21:40:12,956 INFO DEFAULT_GROUP@@answerService {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.2:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-07 21:40:12,956 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answerService, ips: 
+
+2022-11-07 21:40:17,888 INFO DEFAULT_GROUP@@itemSetService {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.2:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-07 21:40:17,888 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 
+

@@ -1,6 +1,7 @@
 package com.code.controller;
 
 
+import com.code.client.AnswerClient;
 import com.code.pojo.Answer;
 import com.code.service.AnswerService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,12 +22,12 @@ import java.util.Map;
  */
 @RestController
 @RequestMapping("/Answer")
-public class AnswerController {
+public class AnswerController  implements AnswerClient {
 
 
     @Autowired
     AnswerService answerService;
-
+    @Override
     @RequestMapping("/Save")
     public boolean insertAnswer(@RequestBody Answer answer){
 
@@ -35,6 +36,7 @@ public class AnswerController {
     }
 
 
+    @Override
     @RequestMapping("/PassingRate")
     public float getPassingRate(@RequestBody Map<String,Object> map){
 

@@ -1,4 +1,4 @@
-package com.code.service.client;
+package com.code.client;
 
 import com.code.pojo.Answer;
 import org.springframework.cloud.openfeign.FeignClient;
