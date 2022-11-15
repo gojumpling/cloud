@@ -68,7 +68,7 @@ public class ItemController {
         int count = 0;
         for (Testcase testcase:testcaseList) {
 //            跑代码,得分放在testcase中测试点的testcase.setTestcaseGrade(),并算总分sum
-            boolean flag = run(lang,code,testcase.getTestcaseInput(),testcase.getTestcaseOutput());
+            boolean flag = itemService.run(lang,code,testcase.getTestcaseInput(),testcase.getTestcaseOutput());
             count += testcase.getTestcaseGrade();
             if(flag){
                 sum+=testcase.getTestcaseGrade();
@@ -101,48 +101,6 @@ public class ItemController {
         return testcaseList;
 
     }
-
-
-
-
-
-    public boolean run(String lang,String code,String input,String output){
-
-        input = input.replace("\\n","\n");
-        output = output.replace("\\n","\n");
-
-
-        JSONObject json = new JSONObject();
-        json.put("lang",lang);
-        json.put("code",code);
-        json.put("input",input);
-//        log.info(String.valueOf(json));
-        String res = "";
-
-        res = Unirest.post("http://114.132.64.132:8000/run/code")
-                .header("User-Agent", "apifox/1.0.0 (https://www.apifox.cn)")
-                .header("Content-Type", "application/json")
-                .header("Accept", "*/*")
-                .header("Host", "114.132.64.132:8000")
-                .header("Connection", "keep-alive")
-                .body(json)
-                .asString().getBody();
-
-        JSONObject jsonObject = JSON.parseObject(res);
-
-        System.out.println(res);
-
-        String data = (String) jsonObject.get("data");
-        String time = (String) jsonObject.get("time");
-        if(data == null){
-            return false;
-        }
-        return data.equals(output);
-
-
-    }
-
-
 
 
 

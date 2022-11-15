@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Answer" />
+        <module name="User" />
         <module name="common" />
         <module name="ItemSet" />
         <module name="Gateway" />
@@ -29,6 +30,7 @@
       <module name="Eureka" options="-parameters" />
       <module name="Gateway" options="-parameters" />
       <module name="ItemSet" options="-parameters" />
+      <module name="User" options="-parameters" />
       <module name="borrow" options="-parameters" />
       <module name="cloud" options="" />
       <module name="common" options="-parameters" />

@@ -25,10 +25,7 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus-boot-starter</artifactId>
-        </dependency>
+
 
         <!--    后端发送http请求-->
         <!-- Pull in as a traditional dependency -->

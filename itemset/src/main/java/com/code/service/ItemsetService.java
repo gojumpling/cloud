@@ -16,9 +16,11 @@ import java.util.List;
 public interface ItemsetService extends IService<Itemset> {
 
     public List<Itemset> getExperimentItemSet();
-    public List<Itemset> getMyItemSet();
+    public List<Itemset> getMyItemSet(String user_no);
     public List<Itemset> getTestItemSet();
     public List<Itemset> getPracticeItemSet();
     public Itemset getItemSetById(String itemSet_id);
+
+    List<Itemset> getItemSetList(String user_no);
 
 }

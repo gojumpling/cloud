@@ -9,6 +9,7 @@
         <module>common</module>
         <module>Answer</module>
         <module>Gateway</module>
+        <module>User</module>
 
 
     </modules>

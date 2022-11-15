@@ -1,0 +1,674 @@
+2022-11-14 19:35:00,865 INFO DEFAULT_GROUP@@answerService {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8082:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 19:35:00,869 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answerService, ips: 10.86.88.170:8082_true,
+
+2022-11-14 19:35:08,390 INFO DEFAULT_GROUP@@answerService {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 19:35:08,390 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answerService, ips: 10.86.88.170:8082_true,10.86.88.170:8081_true,
+
+2022-11-14 19:35:17,217 INFO DEFAULT_GROUP@@itemSetService {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8083:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 19:35:17,217 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 10.86.88.170:8083_true,
+
+2022-11-14 19:35:24,329 INFO DEFAULT_GROUP@@itemSetService {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8084:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 19:35:24,329 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 10.86.88.170:8084_true,10.86.88.170:8083_true,
+
+2022-11-14 19:39:59,433 INFO DEFAULT_GROUP@@itemSetService {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8083:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 19:39:59,434 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 10.86.88.170:8084_true,
+
+2022-11-14 19:39:59,585 INFO DEFAULT_GROUP@@itemSetService {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8084:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 19:39:59,585 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 
+
+2022-11-14 19:40:22,879 INFO DEFAULT_GROUP@@itemSetService {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8084:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 19:40:22,879 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 10.86.88.170:8084_true,
+
+2022-11-14 19:40:29,678 INFO DEFAULT_GROUP@@itemSetService {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8083:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 19:40:29,679 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 10.86.88.170:8084_true,10.86.88.170:8083_true,
+
+2022-11-14 19:43:39,736 INFO DEFAULT_GROUP@@answerService {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8082:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 19:43:39,736 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answerService, ips: 10.86.88.170:8081_true,
+
+2022-11-14 19:43:39,765 INFO DEFAULT_GROUP@@answerService {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 19:43:39,765 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answerService, ips: 
+
+2022-11-14 19:44:04,273 INFO DEFAULT_GROUP@@answerService {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 19:44:04,273 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answerService, ips: 10.86.88.170:8081_true,
+
+2022-11-14 19:45:39,087 INFO DEFAULT_GROUP@@answerService {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8082:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 19:45:39,087 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answerService, ips: 10.86.88.170:8082_true,10.86.88.170:8081_true,
+
+2022-11-14 19:47:04,192 INFO DEFAULT_GROUP@@answerService {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8082:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 19:47:04,192 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answerService, ips: 10.86.88.170:8081_true,
+
+2022-11-14 19:47:04,222 INFO DEFAULT_GROUP@@answerService {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 19:47:04,222 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answerService, ips: 
+
+2022-11-14 19:47:18,152 INFO DEFAULT_GROUP@@answerService {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8082:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 19:47:18,152 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answerService, ips: 10.86.88.170:8082_true,
+
+2022-11-14 19:47:23,917 INFO DEFAULT_GROUP@@answerService {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 19:47:23,917 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answerService, ips: 10.86.88.170:8082_true,10.86.88.170:8081_true,
+
+2022-11-14 19:48:21,722 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answerService, ips: 10.86.88.170:8082_true,10.86.88.170:8081_true,
+
+2022-11-14 19:48:26,908 INFO {POS} {IP-DISABLED} valid: 10.86.88.170:8081@DEFAULT@DEFAULT_GROUP@@answerService, region: unknown, msg: client timeout after 15000, last beat: 1668426489028
+
+2022-11-14 19:48:27,444 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answerService, ips: 10.86.88.170:8082_true,10.86.88.170:8081_false,
+
+2022-11-14 19:48:28,486 INFO {POS} {IP-DISABLED} valid: 10.86.88.170:8084@DEFAULT@DEFAULT_GROUP@@itemSetService, region: unknown, msg: client timeout after 15000, last beat: 1668426489028
+
+2022-11-14 19:48:28,486 INFO {POS} {IP-DISABLED} valid: 10.86.88.170:8083@DEFAULT@DEFAULT_GROUP@@itemSetService, region: unknown, msg: client timeout after 15000, last beat: 1668426490695
+
+2022-11-14 19:48:32,455 INFO service: DEFAULT_GROUP@@answerService {POS} {IP-ENABLED} valid: 10.86.88.170:8081@DEFAULT, region: unknown, msg: client beat ok
+
+2022-11-14 19:48:36,611 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 10.86.88.170:8084_false,10.86.88.170:8083_false,
+
+2022-11-14 19:48:41,617 INFO service: DEFAULT_GROUP@@itemSetService {POS} {IP-ENABLED} valid: 10.86.88.170:8083@DEFAULT, region: unknown, msg: client beat ok
+
+2022-11-14 19:48:43,556 INFO DEFAULT_GROUP@@itemSetService {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8084:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-11-14 19:48:43,556 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 10.86.88.170:8083_true,
+
+2022-11-14 19:50:26,503 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 10.86.88.170:8083_true,
+
+2022-11-14 20:00:17,943 INFO {POS} {IP-DISABLED} valid: 10.86.88.170:8081@DEFAULT@DEFAULT_GROUP@@answerService, region: unknown, msg: client timeout after 15000, last beat: 1668427200097
+
+2022-11-14 20:00:19,745 INFO {POS} {IP-DISABLED} valid: 10.86.88.170:8083@DEFAULT@DEFAULT_GROUP@@itemSetService, region: unknown, msg: client timeout after 15000, last beat: 1668427202676
+
+2022-11-14 20:00:22,954 INFO {POS} {IP-DISABLED} valid: 10.86.88.170:8082@DEFAULT@DEFAULT_GROUP@@answerService, region: unknown, msg: client timeout after 15000, last beat: 1668427203342
+
+2022-11-14 20:00:32,966 INFO DEFAULT_GROUP@@answerService {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8081:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-11-14 20:00:32,966 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answerService, ips: 10.86.88.170:8082_false,
+
+2022-11-14 20:00:34,766 INFO DEFAULT_GROUP@@itemSetService {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8083:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-11-14 20:00:34,766 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 
+
+2022-11-14 20:00:37,975 INFO DEFAULT_GROUP@@answerService {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8082:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-11-14 20:00:37,976 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answerService, ips: 
+
+2022-11-14 20:22:56,357 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 20:22:56,361 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.170:8080_true,
+
+2022-11-14 20:26:18,155 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 20:26:18,155 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-14 20:29:30,897 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 20:29:30,897 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.170:8080_true,
+
+2022-11-14 20:29:46,262 INFO DEFAULT_GROUP@@answerService {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8082:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 20:29:46,262 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answerService, ips: 10.86.88.170:8082_true,
+
+2022-11-14 20:34:02,147 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 20:34:02,148 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-14 20:34:09,963 INFO DEFAULT_GROUP@@answerService {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 20:34:09,963 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answerService, ips: 10.86.88.170:8082_true,10.86.88.170:8081_true,
+
+2022-11-14 20:34:15,199 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answerService, ips: 10.86.88.170:8082_true,10.86.88.170:8081_true,
+
+2022-11-14 20:34:22,414 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 20:34:22,414 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.170:8080_true,
+
+2022-11-14 20:34:31,818 INFO DEFAULT_GROUP@@itemSetService {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8083:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 20:34:31,818 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 10.86.88.170:8083_true,
+
+2022-11-14 20:34:36,594 INFO DEFAULT_GROUP@@itemSetService {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8084:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 20:34:36,594 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 10.86.88.170:8084_true,10.86.88.170:8083_true,
+
+2022-11-14 20:37:04,315 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 20:37:04,315 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-14 20:37:12,146 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 20:37:12,146 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.170:8080_true,
+
+2022-11-14 20:44:58,180 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 20:44:58,180 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-14 20:45:05,643 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 20:45:05,643 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.170:8080_true,
+
+2022-11-14 20:46:09,424 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 20:46:09,424 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-14 20:46:16,711 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 20:46:16,711 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.170:8080_true,
+
+2022-11-14 20:48:02,903 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 20:48:02,903 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-14 20:48:10,198 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 20:48:10,198 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.170:8080_true,
+
+2022-11-14 20:49:14,390 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 20:49:14,390 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-14 20:49:20,948 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 20:49:20,948 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.170:8080_true,
+
+2022-11-14 20:51:16,592 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 20:51:16,592 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-14 20:51:24,686 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 20:51:24,686 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.170:8080_true,
+
+2022-11-14 20:51:55,332 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 10.86.88.170:8084_true,10.86.88.170:8083_true,
+
+2022-11-14 20:52:01,894 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 10.86.88.170:8084_true,10.86.88.170:8083_true,
+
+2022-11-14 20:53:34,592 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 20:53:34,592 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-14 20:53:42,770 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answerService, ips: 10.86.88.170:8082_true,10.86.88.170:8081_true,
+
+2022-11-14 20:53:48,645 INFO {POS} {IP-DISABLED} valid: 10.86.88.170:8084@DEFAULT@DEFAULT_GROUP@@itemSetService, region: unknown, msg: client timeout after 15000, last beat: 1668430412085
+
+2022-11-14 20:53:48,645 INFO {POS} {IP-DISABLED} valid: 10.86.88.170:8081@DEFAULT@DEFAULT_GROUP@@answerService, region: unknown, msg: client timeout after 15000, last beat: 1668430412393
+
+2022-11-14 20:53:48,646 INFO {POS} {IP-DISABLED} valid: 10.86.88.170:8083@DEFAULT@DEFAULT_GROUP@@itemSetService, region: unknown, msg: client timeout after 15000, last beat: 1668430410578
+
+2022-11-14 20:53:48,808 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answerService, ips: 10.86.88.170:8082_true,10.86.88.170:8081_false,
+
+2022-11-14 20:53:53,826 INFO service: DEFAULT_GROUP@@answerService {POS} {IP-ENABLED} valid: 10.86.88.170:8081@DEFAULT, region: unknown, msg: client beat ok
+
+2022-11-14 20:53:55,267 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 10.86.88.170:8084_false,10.86.88.170:8083_false,
+
+2022-11-14 20:54:00,201 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 20:54:00,201 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.170:8080_true,
+
+2022-11-14 20:54:00,282 INFO service: DEFAULT_GROUP@@itemSetService {POS} {IP-ENABLED} valid: 10.86.88.170:8083@DEFAULT, region: unknown, msg: client beat ok
+
+2022-11-14 20:54:03,753 INFO DEFAULT_GROUP@@itemSetService {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8084:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-11-14 20:54:03,753 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 10.86.88.170:8083_true,
+
+2022-11-14 20:54:05,565 INFO DEFAULT_GROUP@@itemSetService {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8084:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 20:54:05,565 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 10.86.88.170:8084_true,10.86.88.170:8083_true,
+
+2022-11-14 20:54:29,364 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 20:54:29,364 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-14 20:54:37,277 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 20:54:37,277 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.170:8080_true,
+
+2022-11-14 20:54:46,804 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 20:54:46,804 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-14 20:54:53,646 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 20:54:53,646 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.170:8080_true,
+
+2022-11-14 20:58:19,652 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 20:58:19,652 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-14 20:58:27,528 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answerService, ips: 10.86.88.170:8082_true,10.86.88.170:8081_true,
+
+2022-11-14 20:58:32,575 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answerService, ips: 10.86.88.170:8082_true,10.86.88.170:8081_true,
+
+2022-11-14 20:58:34,273 INFO {POS} {IP-DISABLED} valid: 10.86.88.170:8084@DEFAULT@DEFAULT_GROUP@@itemSetService, region: unknown, msg: client timeout after 15000, last beat: 1668430696139
+
+2022-11-14 20:58:34,273 INFO {POS} {IP-DISABLED} valid: 10.86.88.170:8083@DEFAULT@DEFAULT_GROUP@@itemSetService, region: unknown, msg: client timeout after 15000, last beat: 1668430695845
+
+2022-11-14 20:58:40,836 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 10.86.88.170:8084_false,10.86.88.170:8083_false,
+
+2022-11-14 20:58:45,847 INFO service: DEFAULT_GROUP@@itemSetService {POS} {IP-ENABLED} valid: 10.86.88.170:8083@DEFAULT, region: unknown, msg: client beat ok
+
+2022-11-14 20:58:47,479 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 10.86.88.170:8084_false,10.86.88.170:8083_true,
+
+2022-11-14 20:58:52,480 INFO service: DEFAULT_GROUP@@itemSetService {POS} {IP-ENABLED} valid: 10.86.88.170:8084@DEFAULT, region: unknown, msg: client beat ok
+
+2022-11-14 20:58:55,152 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 20:58:55,152 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.170:8080_true,
+
+2022-11-14 21:00:50,648 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:00:50,649 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-14 21:00:59,752 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:00:59,752 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.170:8080_true,
+
+2022-11-14 21:01:38,382 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:01:38,382 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-14 21:01:46,835 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:01:46,836 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.170:8080_true,
+
+2022-11-14 21:02:15,014 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:02:15,014 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-14 21:02:21,920 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:02:21,920 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.170:8080_true,
+
+2022-11-14 21:03:56,893 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:03:56,893 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-14 21:04:04,540 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:04:04,540 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.170:8080_true,
+
+2022-11-14 21:05:55,582 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:05:55,582 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-14 21:06:03,534 INFO DEFAULT_GROUP@@answer-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8082:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:06:03,534 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 10.86.88.170:8082_true,
+
+2022-11-14 21:06:07,777 INFO DEFAULT_GROUP@@answer-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:06:07,777 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 10.86.88.170:8082_true,10.86.88.170:8081_true,
+
+2022-11-14 21:06:10,000 INFO {POS} {IP-DISABLED} valid: 10.86.88.170:8084@DEFAULT@DEFAULT_GROUP@@itemSetService, region: unknown, msg: client timeout after 15000, last beat: 1668431154384
+
+2022-11-14 21:06:10,000 INFO {POS} {IP-DISABLED} valid: 10.86.88.170:8083@DEFAULT@DEFAULT_GROUP@@itemSetService, region: unknown, msg: client timeout after 15000, last beat: 1668431151772
+
+2022-11-14 21:06:10,000 INFO {POS} {IP-DISABLED} valid: 10.86.88.170:8082@DEFAULT@DEFAULT_GROUP@@answerService, region: unknown, msg: client timeout after 15000, last beat: 1668431153500
+
+2022-11-14 21:06:10,000 INFO {POS} {IP-DISABLED} valid: 10.86.88.170:8081@DEFAULT@DEFAULT_GROUP@@answerService, region: unknown, msg: client timeout after 15000, last beat: 1668431153547
+
+2022-11-14 21:06:15,440 INFO DEFAULT_GROUP@@itemSet-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8083:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:06:15,440 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSet-service, ips: 10.86.88.170:8083_true,
+
+2022-11-14 21:06:21,597 INFO DEFAULT_GROUP@@itemSet-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8084:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:06:21,597 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSet-service, ips: 10.86.88.170:8084_true,10.86.88.170:8083_true,
+
+2022-11-14 21:06:25,027 INFO DEFAULT_GROUP@@answerService {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8082:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-11-14 21:06:25,027 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answerService, ips: 10.86.88.170:8081_false,
+
+2022-11-14 21:06:25,027 INFO DEFAULT_GROUP@@itemSetService {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8083:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-11-14 21:06:25,027 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 10.86.88.170:8084_false,
+
+2022-11-14 21:06:25,027 INFO DEFAULT_GROUP@@itemSetService {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8084:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-11-14 21:06:25,027 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSetService, ips: 
+
+2022-11-14 21:06:25,029 INFO DEFAULT_GROUP@@answerService {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8081:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-11-14 21:06:25,029 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answerService, ips: 
+
+2022-11-14 21:07:57,078 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:07:57,078 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.170:8080_true,
+
+2022-11-14 21:09:54,790 INFO DEFAULT_GROUP@@itemset-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8083:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:09:54,790 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemset-service, ips: 10.86.88.170:8083_true,
+
+2022-11-14 21:10:00,854 INFO {POS} {IP-DISABLED} valid: 10.86.88.170:8084@DEFAULT@DEFAULT_GROUP@@itemSet-service, region: unknown, msg: client timeout after 15000, last beat: 1668431382105
+
+2022-11-14 21:10:00,854 INFO {POS} {IP-DISABLED} valid: 10.86.88.170:8083@DEFAULT@DEFAULT_GROUP@@itemSet-service, region: unknown, msg: client timeout after 15000, last beat: 1668431380963
+
+2022-11-14 21:10:00,938 INFO DEFAULT_GROUP@@itemset-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8084:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:10:00,938 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemset-service, ips: 10.86.88.170:8084_true,10.86.88.170:8083_true,
+
+2022-11-14 21:10:15,890 INFO DEFAULT_GROUP@@itemSet-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 2, content: [10.86.88.170:8084:unknown:DEFAULT_1.0_false_false_DEFAULT, 10.86.88.170:8083:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-11-14 21:10:15,890 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemSet-service, ips: 
+
+2022-11-14 21:10:16,445 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:10:16,446 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-14 21:10:23,976 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:10:23,976 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.170:8080_true,
+
+2022-11-14 21:11:39,415 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:11:39,415 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-14 21:11:48,113 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:11:48,113 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.170:8080_true,
+
+2022-11-14 21:11:55,826 INFO DEFAULT_GROUP@@item-set-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8083:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:11:55,826 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 10.86.88.170:8083_true,
+
+2022-11-14 21:11:59,894 INFO DEFAULT_GROUP@@item-set-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8084:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:11:59,894 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 10.86.88.170:8084_true,10.86.88.170:8083_true,
+
+2022-11-14 21:12:05,010 INFO {POS} {IP-DISABLED} valid: 10.86.88.170:8084@DEFAULT@DEFAULT_GROUP@@itemset-service, region: unknown, msg: client timeout after 15000, last beat: 1668431506159
+
+2022-11-14 21:12:05,010 INFO {POS} {IP-DISABLED} valid: 10.86.88.170:8083@DEFAULT@DEFAULT_GROUP@@itemset-service, region: unknown, msg: client timeout after 15000, last beat: 1668431505007
+
+2022-11-14 21:12:15,027 INFO DEFAULT_GROUP@@itemset-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8083:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-11-14 21:12:15,027 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemset-service, ips: 10.86.88.170:8084_false,
+
+2022-11-14 21:12:20,030 INFO DEFAULT_GROUP@@itemset-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8084:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-11-14 21:12:20,030 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@itemset-service, ips: 
+
+2022-11-14 21:15:56,127 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:15:56,127 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-14 21:16:06,881 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:16:06,881 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.170:8080_true,
+
+2022-11-14 21:19:12,857 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:19:12,857 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-14 21:21:36,010 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:21:36,010 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.170:8080_true,
+
+2022-11-14 21:24:01,012 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:24:01,012 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-14 21:24:08,657 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:24:08,658 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.170:8080_true,
+
+2022-11-14 21:25:34,088 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:25:34,088 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-14 21:25:40,452 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:25:40,452 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.170:8080_true,
+
+2022-11-14 21:26:49,674 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:26:49,674 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-14 21:26:56,662 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:26:56,662 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.170:8080_true,
+
+2022-11-14 21:27:32,607 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:27:32,607 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-14 21:27:39,957 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:27:39,957 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.170:8080_true,
+
+2022-11-14 21:29:38,991 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:29:38,991 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-14 21:29:50,658 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 10.86.88.170:8082_true,10.86.88.170:8081_true,
+
+2022-11-14 21:29:51,107 INFO {POS} {IP-DISABLED} valid: 10.86.88.170:8081@DEFAULT@DEFAULT_GROUP@@answer-service, region: unknown, msg: client timeout after 15000, last beat: 1668432576032
+
+2022-11-14 21:29:52,506 INFO {POS} {IP-DISABLED} valid: 10.86.88.170:8084@DEFAULT@DEFAULT_GROUP@@item-set-service, region: unknown, msg: client timeout after 15000, last beat: 1668432577285
+
+2022-11-14 21:29:55,749 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 10.86.88.170:8082_true,10.86.88.170:8081_false,
+
+2022-11-14 21:29:57,513 INFO {POS} {IP-DISABLED} valid: 10.86.88.170:8083@DEFAULT@DEFAULT_GROUP@@item-set-service, region: unknown, msg: client timeout after 15000, last beat: 1668432578106
+
+2022-11-14 21:30:00,759 INFO service: DEFAULT_GROUP@@answer-service {POS} {IP-ENABLED} valid: 10.86.88.170:8081@DEFAULT, region: unknown, msg: client beat ok
+
+2022-11-14 21:30:03,269 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 10.86.88.170:8084_false,10.86.88.170:8083_false,
+
+2022-11-14 21:30:07,531 INFO DEFAULT_GROUP@@item-set-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8084:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-11-14 21:30:07,531 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 10.86.88.170:8083_false,
+
+2022-11-14 21:30:08,282 INFO service: DEFAULT_GROUP@@item-set-service {POS} {IP-ENABLED} valid: 10.86.88.170:8083@DEFAULT, region: unknown, msg: client beat ok
+
+2022-11-14 21:30:09,580 INFO DEFAULT_GROUP@@item-set-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8084:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:30:09,581 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 10.86.88.170:8084_true,10.86.88.170:8083_true,
+
+2022-11-14 21:30:15,447 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:30:15,447 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.170:8080_true,
+
+2022-11-14 21:35:05,845 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:35:05,845 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-14 21:35:13,802 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 10.86.88.170:8082_true,10.86.88.170:8081_true,
+
+2022-11-14 21:35:16,568 INFO {POS} {IP-DISABLED} valid: 10.86.88.170:8082@DEFAULT@DEFAULT_GROUP@@answer-service, region: unknown, msg: client timeout after 15000, last beat: 1668432901339
+
+2022-11-14 21:35:18,648 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 10.86.88.170:8082_false,10.86.88.170:8081_true,
+
+2022-11-14 21:35:23,066 INFO {POS} {IP-DISABLED} valid: 10.86.88.170:8084@DEFAULT@DEFAULT_GROUP@@item-set-service, region: unknown, msg: client timeout after 15000, last beat: 1668432905184
+
+2022-11-14 21:35:23,066 INFO {POS} {IP-DISABLED} valid: 10.86.88.170:8083@DEFAULT@DEFAULT_GROUP@@item-set-service, region: unknown, msg: client timeout after 15000, last beat: 1668432903915
+
+2022-11-14 21:35:23,660 INFO service: DEFAULT_GROUP@@answer-service {POS} {IP-ENABLED} valid: 10.86.88.170:8082@DEFAULT, region: unknown, msg: client beat ok
+
+2022-11-14 21:35:24,739 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 10.86.88.170:8084_false,10.86.88.170:8083_false,
+
+2022-11-14 21:35:29,752 INFO service: DEFAULT_GROUP@@item-set-service {POS} {IP-ENABLED} valid: 10.86.88.170:8083@DEFAULT, region: unknown, msg: client beat ok
+
+2022-11-14 21:35:30,360 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 10.86.88.170:8084_false,10.86.88.170:8083_true,
+
+2022-11-14 21:35:35,366 INFO service: DEFAULT_GROUP@@item-set-service {POS} {IP-ENABLED} valid: 10.86.88.170:8084@DEFAULT, region: unknown, msg: client beat ok
+
+2022-11-14 21:35:36,930 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:35:36,930 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.170:8080_true,
+
+2022-11-14 21:37:14,684 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:37:14,684 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-14 21:37:22,132 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 10.86.88.170:8082_true,10.86.88.170:8081_true,
+
+2022-11-14 21:37:26,260 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 10.86.88.170:8082_true,10.86.88.170:8081_true,
+
+2022-11-14 21:37:28,276 INFO {POS} {IP-DISABLED} valid: 10.86.88.170:8084@DEFAULT@DEFAULT_GROUP@@item-set-service, region: unknown, msg: client timeout after 15000, last beat: 1668433031559
+
+2022-11-14 21:37:28,276 INFO {POS} {IP-DISABLED} valid: 10.86.88.170:8083@DEFAULT@DEFAULT_GROUP@@item-set-service, region: unknown, msg: client timeout after 15000, last beat: 1668433029991
+
+2022-11-14 21:37:31,759 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 10.86.88.170:8084_false,10.86.88.170:8083_false,
+
+2022-11-14 21:37:36,614 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 10.86.88.170:8084_false,10.86.88.170:8083_false,
+
+2022-11-14 21:37:36,766 INFO service: DEFAULT_GROUP@@item-set-service {POS} {IP-ENABLED} valid: 10.86.88.170:8083@DEFAULT, region: unknown, msg: client beat ok
+
+2022-11-14 21:37:41,536 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:37:41,536 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.170:8080_true,
+
+2022-11-14 21:37:42,609 INFO service: DEFAULT_GROUP@@item-set-service {POS} {IP-ENABLED} valid: 10.86.88.170:8084@DEFAULT, region: unknown, msg: client beat ok
+
+2022-11-14 21:38:38,871 INFO DEFAULT_GROUP@@answer-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8082:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:38:38,876 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 10.86.88.170:8082_true,
+
+2022-11-14 21:38:38,883 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:38:38,883 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.170:8080_true,
+
+2022-11-14 21:38:38,883 INFO DEFAULT_GROUP@@item-set-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8084:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:38:38,883 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 10.86.88.170:8084_true,
+
+2022-11-14 21:38:38,884 INFO DEFAULT_GROUP@@answer-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:38:38,884 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 10.86.88.170:8082_true,10.86.88.170:8081_true,
+
+2022-11-14 21:38:38,965 INFO DEFAULT_GROUP@@item-set-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8083:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:38:38,965 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 10.86.88.170:8084_true,10.86.88.170:8083_true,
+
+2022-11-14 21:39:35,449 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:39:35,449 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-14 21:39:46,326 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:39:46,326 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.170:8080_true,
+
+2022-11-14 21:40:21,359 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:40:21,359 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-14 21:40:29,405 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:40:29,406 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.170:8080_true,
+
+2022-11-14 21:40:32,863 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 10.86.88.170:8082_true,10.86.88.170:8081_true,
+
+2022-11-14 21:40:38,486 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 10.86.88.170:8082_true,10.86.88.170:8081_true,
+
+2022-11-14 21:40:38,964 INFO {POS} {IP-DISABLED} valid: 10.86.88.170:8084@DEFAULT@DEFAULT_GROUP@@item-set-service, region: unknown, msg: client timeout after 15000, last beat: 1668433219183
+
+2022-11-14 21:40:38,966 INFO {POS} {IP-DISABLED} valid: 10.86.88.170:8083@DEFAULT@DEFAULT_GROUP@@item-set-service, region: unknown, msg: client timeout after 15000, last beat: 1668433219228
+
+2022-11-14 21:40:43,452 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 10.86.88.170:8084_false,10.86.88.170:8083_false,
+
+2022-11-14 21:40:47,996 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 10.86.88.170:8084_false,10.86.88.170:8083_false,
+
+2022-11-14 21:40:48,455 INFO service: DEFAULT_GROUP@@item-set-service {POS} {IP-ENABLED} valid: 10.86.88.170:8083@DEFAULT, region: unknown, msg: client beat ok
+
+2022-11-14 21:40:53,996 INFO service: DEFAULT_GROUP@@item-set-service {POS} {IP-ENABLED} valid: 10.86.88.170:8084@DEFAULT, region: unknown, msg: client beat ok
+
+2022-11-14 21:41:46,819 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:41:46,819 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-14 21:41:54,641 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:41:54,641 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.170:8080_true,
+
+2022-11-14 21:43:33,510 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:43:33,510 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-14 21:43:41,281 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 10.86.88.170:8082_true,10.86.88.170:8081_true,
+
+2022-11-14 21:43:44,260 INFO {POS} {IP-DISABLED} valid: 10.86.88.170:8083@DEFAULT@DEFAULT_GROUP@@item-set-service, region: unknown, msg: client timeout after 15000, last beat: 1668433408819
+
+2022-11-14 21:43:45,926 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 10.86.88.170:8082_true,10.86.88.170:8081_true,
+
+2022-11-14 21:43:49,261 INFO {POS} {IP-DISABLED} valid: 10.86.88.170:8084@DEFAULT@DEFAULT_GROUP@@item-set-service, region: unknown, msg: client timeout after 15000, last beat: 1668433410353
+
+2022-11-14 21:43:51,952 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 10.86.88.170:8084_false,10.86.88.170:8083_false,
+
+2022-11-14 21:43:56,956 INFO service: DEFAULT_GROUP@@item-set-service {POS} {IP-ENABLED} valid: 10.86.88.170:8083@DEFAULT, region: unknown, msg: client beat ok
+
+2022-11-14 21:43:57,594 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 10.86.88.170:8084_false,10.86.88.170:8083_true,
+
+2022-11-14 21:44:02,597 INFO service: DEFAULT_GROUP@@item-set-service {POS} {IP-ENABLED} valid: 10.86.88.170:8084@DEFAULT, region: unknown, msg: client beat ok
+
+2022-11-14 21:44:03,239 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:44:03,239 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.170:8080_true,
+
+2022-11-14 21:44:41,495 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:44:41,496 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-14 21:44:49,425 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:44:49,425 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.170:8080_true,
+
+2022-11-14 21:46:02,007 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:46:02,007 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-14 21:46:10,021 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:46:10,021 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.170:8080_true,
+
+2022-11-14 21:46:35,778 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:46:35,778 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-14 21:46:43,477 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:46:43,477 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.170:8080_true,
+
+2022-11-14 21:47:36,844 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:47:36,845 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-14 21:47:44,637 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:47:44,637 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.170:8080_true,
+
+2022-11-14 21:48:47,872 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 10.86.88.170:8084_true,10.86.88.170:8083_true,
+
+2022-11-14 21:48:49,798 INFO {POS} {IP-DISABLED} valid: 10.86.88.170:8084@DEFAULT@DEFAULT_GROUP@@item-set-service, region: unknown, msg: client timeout after 15000, last beat: 1668433714177
+
+2022-11-14 21:48:53,623 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 10.86.88.170:8084_false,10.86.88.170:8083_true,
+
+2022-11-14 21:48:58,636 INFO service: DEFAULT_GROUP@@item-set-service {POS} {IP-ENABLED} valid: 10.86.88.170:8084@DEFAULT, region: unknown, msg: client beat ok
+
+2022-11-14 21:51:49,494 INFO DEFAULT_GROUP@@answer-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8082:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:51:49,494 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 10.86.88.170:8081_true,
+
+2022-11-14 21:51:58,846 INFO DEFAULT_GROUP@@answer-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:51:58,846 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 
+
+2022-11-14 21:52:06,674 INFO DEFAULT_GROUP@@item-set-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8083:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:52:06,674 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 10.86.88.170:8084_true,
+
+2022-11-14 21:52:13,043 INFO DEFAULT_GROUP@@item-set-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8084:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:52:13,043 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 
+
+2022-11-14 21:52:20,500 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.170:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-14 21:52:20,500 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+

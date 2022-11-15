@@ -20,6 +20,8 @@ public interface ItemService extends IService<Item> {
 
     public boolean updataItem(Item item);
 
+    public boolean run(String lang,String code,String input,String output);
+
 
 
 
