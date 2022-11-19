@@ -18,6 +18,7 @@ public interface UserService extends IService<User> {
     User Login(String user_no,String pwd);
     User getUserByNo(String user_no);
     List<User> getTeacherByClazz(String clazz_no);
+    List<User> getTeacherClazz(String user_no);
 
 
 }

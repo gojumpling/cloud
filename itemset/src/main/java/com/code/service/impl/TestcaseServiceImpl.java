@@ -1,6 +1,7 @@
 package com.code.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+import com.code.pojo.Itemset;
 import com.code.pojo.Testcase;
 import com.code.mapper.TestcaseMapper;
 import com.code.service.TestcaseService;
@@ -44,6 +45,16 @@ public class TestcaseServiceImpl extends ServiceImpl<TestcaseMapper, Testcase> i
             sum += testcase.getTestcaseGrade();
         }
         return sum;
+    }
+
+    @Override
+    public Long saveTestcase(Testcase testcase) {
+
+        this.save(testcase);
+        LambdaQueryWrapper<Testcase> lambdaQueryWrapper = new LambdaQueryWrapper<>();
+        lambdaQueryWrapper.orderByDesc(Testcase::getTestcaseId);
+        return this.getOne(lambdaQueryWrapper).getTestcaseId();
+
     }
 
 }

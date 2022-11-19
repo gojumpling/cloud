@@ -1,6 +1,10 @@
 package com.code.controller;
 
 
+import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+import com.code.client.ItemSetClient;
+import com.code.pojo.Item;
+import com.code.pojo.Itemset;
 import com.code.pojo.User;
 import com.code.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,6 +13,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -26,6 +32,11 @@ public class UserController {
 
     @Autowired
     UserService userService;
+
+    @Autowired
+    ItemSetClient itemSetClient;
+
+
 
     @RequestMapping("/Login")
     public User login(@RequestBody Map<String,Object> map){
@@ -57,6 +68,44 @@ public class UserController {
         List<User> userList = userService.getTeacherByClazz(clazz_no);
         return userList;
     }
+
+    @RequestMapping("/TeacherInfo")
+    public Map<String,Object> getTeacherInfo(@RequestBody Map<String,Object> map){
+        String user_no = map.get("user_no").toString();
+
+//        User user = userService.getUserByNo(user_no);
+
+
+//        返回题目集、题目、班级数量和列表
+        Map<String, Object> infoMap = new HashMap<>(8);
+
+        List<String> clazzList = new ArrayList<>();
+
+        List<User> userList = userService.getTeacherClazz(user_no);
+        for (User user:userList) {
+            clazzList.add(user.getClazzNo());
+        }
+
+        infoMap.put("clazzList",clazzList);
+        infoMap.put("clazzNum",clazzList.size());
+
+        List<Itemset> itemSetList = itemSetClient.getItemSetListByNo(user_no);
+        infoMap.put("itemSetList",itemSetList);
+        infoMap.put("itemSetNum",itemSetList.size());
+
+
+
+        List<Item> itemList = itemSetClient.getItemList(itemSetList);
+        infoMap.put("itemList",itemList);
+        infoMap.put("itemNum",itemList.size());
+
+
+
+        return infoMap;
+
+
+    }
+
 
 
 }

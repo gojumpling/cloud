@@ -84,5 +84,17 @@ public class ItemServiceImpl extends ServiceImpl<ItemMapper, Item> implements It
         return data.equals(output);
     }
 
+    @Override
+    public Long saveItem(Item item) {
+
+        this.save(item);
+        LambdaQueryWrapper<Item> lambdaQueryWrapper = new LambdaQueryWrapper<>();
+        lambdaQueryWrapper.orderByDesc(Item::getItemId);
+
+        return this.getOne(lambdaQueryWrapper).getItemId();
+
+
+    }
+
 
 }

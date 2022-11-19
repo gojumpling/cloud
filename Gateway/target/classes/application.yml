@@ -29,6 +29,12 @@ spring:
           predicates: # 路由规则，断言什么请求会被路由
             - Path=/Item/**  # 只要是访问的这个路径，一律都被路由到上面指定的服务
 
+        - id: testcase   # 路由名称
+          uri: lb://item-set-service  # 路由的地址，lb表示使用负载均衡到微服务，也可以使用http正常转发
+          predicates: # 路由规则，断言什么请求会被路由
+            - Path=/Testcase/**  # 只要是访问的这个路径，一律都被路由到上面指定的服务
+
+
         - id: answer   # 路由名称
           uri: lb://answer-service  # 路由的地址，lb表示使用负载均衡到微服务，也可以使用http正常转发
           predicates: # 路由规则，断言什么请求会被路由
@@ -38,6 +44,7 @@ spring:
           uri: lb://user-service  # 路由的地址，lb表示使用负载均衡到微服务，也可以使用http正常转发
           predicates: # 路由规则，断言什么请求会被路由
             - Path=/User/**  # 只要是访问的这个路径，一律都被路由到上面指定的服务
+
 
 
 

@@ -53,6 +53,34 @@ public class ItemController {
     }
 
 
+    @RequestMapping("/CreateItem")
+    public Long createItem(@RequestBody Map<String,Object> map){
+
+        String item_title = map.get("item_title").toString();
+        String item_grade = map.get("item_grade").toString();
+        String item_type = map.get("item_type").toString();
+        String item_content = map.get("item_content").toString();
+        String item_language = map.get("item_language").toString();
+        String item_difficulty = map.get("item_difficulty").toString();
+        String item_knowledge = map.get("item_knowledge").toString();
+        String itemset_id = map.get("itemset_id").toString();
+
+        Item item = new Item();
+        item.setItemTitle(item_title);
+        item.setItemGrade(Long.parseLong(item_grade));
+        item.setItemType(item_type);
+        item.setItemContent(item_content);
+        item.setItemLanguage(item_language);
+        item.setItemDifficulty(Long.parseLong(item_difficulty));
+        item.setItemKnowledge(item_knowledge);
+        item.setItemsetId(Long.parseLong(itemset_id));
+
+        return itemService.saveItem(item);
+
+
+    }
+
+
     @RequestMapping("/Submit")
     public List<Testcase> submit(@RequestBody Map<String,Object> map){
 

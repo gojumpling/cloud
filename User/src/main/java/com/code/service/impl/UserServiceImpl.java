@@ -50,4 +50,11 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
 
 
     }
+
+    @Override
+    public List<User> getTeacherClazz(String user_no) {
+        LambdaQueryWrapper<User> lambdaQueryWrapper = new LambdaQueryWrapper<>();
+        lambdaQueryWrapper.eq(User::getUserNo,user_no);
+        return this.list(lambdaQueryWrapper);
+    }
 }

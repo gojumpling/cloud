@@ -23,4 +23,6 @@ public interface ItemsetService extends IService<Itemset> {
 
     List<Itemset> getItemSetList(String user_no);
 
+    Long saveItemSet(Itemset itemset);
+
 }

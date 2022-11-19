@@ -23,6 +23,8 @@ public interface ItemService extends IService<Item> {
     public boolean run(String lang,String code,String input,String output);
 
 
+    Long saveItem(Item item);
+
 
 
 }

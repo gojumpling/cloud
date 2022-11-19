@@ -20,4 +20,6 @@ public interface TestcaseService extends IService<Testcase> {
 
     public int getItemGrade(String item_id);
 
+    Long saveTestcase(Testcase testcase);
+
 }

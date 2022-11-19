@@ -73,5 +73,15 @@ public class ItemsetServiceImpl extends ServiceImpl<ItemsetMapper, Itemset> impl
         return itemSetList;
     }
 
+    @Override
+    public Long saveItemSet(Itemset itemset) {
+        this.save(itemset);
+        LambdaQueryWrapper<Itemset> lambdaQueryWrapper = new LambdaQueryWrapper<>();
+        lambdaQueryWrapper.orderByDesc(Itemset::getItemsetId);
+        return this.getOne(lambdaQueryWrapper).getItemsetId();
+
+
+    }
+
 
 }

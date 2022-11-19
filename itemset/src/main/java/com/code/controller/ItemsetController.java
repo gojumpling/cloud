@@ -1,6 +1,7 @@
 package com.code.controller;
 
 
+import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.code.client.UserClient;
 import com.code.pojo.Item;
 import com.code.pojo.ItemSetDetail;
@@ -9,6 +10,7 @@ import com.code.pojo.Itemset;
 import com.code.pojo.User;
 import com.code.service.ItemService;
 import com.code.service.ItemsetService;
+import lombok.Data;
 import lombok.val;
 import org.checkerframework.checker.units.qual.A;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,10 +19,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 /**
  * <p>
@@ -83,7 +84,7 @@ public class ItemsetController {
 
     @RequestMapping("/PracticeItemSet")
     public List<Itemset> getPracticeItemSet(){
-        System.out.println("1111");
+
         return itemSetService.getPracticeItemSet();
 
     }
@@ -115,6 +116,54 @@ public class ItemsetController {
         return itemSetDetail;
 
     }
+
+
+    @RequestMapping("/ItemSetList_No")
+    public List<Itemset> getItemSetListByNo(@RequestBody String user_no){
+
+        List<Itemset> itemSetList = itemSetService.getItemSetList(user_no);
+
+        return itemSetList;
+
+    }
+
+
+    @RequestMapping("/ItemList")
+    public List<Item> getItemList(@RequestBody List<Itemset> list){
+
+        List<String> stringList = new ArrayList<>();
+        for (Itemset itemset:list) {
+            stringList.add(String.valueOf(itemset.getItemsetId()));
+        }
+
+        LambdaQueryWrapper<Item> lambdaQueryWrapper = new LambdaQueryWrapper();
+        lambdaQueryWrapper.in(Item::getItemsetId,stringList);
+
+        return itemService.list(lambdaQueryWrapper);
+
+
+    }
+
+
+    @RequestMapping("/CreateItemSet")
+    public Long CreateItemSet(@RequestBody Map<String, Object> map) throws ParseException {
+        String itemset_title = map.get("itemset_title").toString();
+        String itemset_type = map.get("itemset_type").toString();
+        Date start_time = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").parse(map.get("start_time").toString());
+        Date end_time = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").parse(map.get("end_time").toString());
+        String user_no = map.get("user_no").toString();
+
+        Itemset itemset = new Itemset();
+        itemset.setItemsetTitle(itemset_title);
+        itemset.setItemsetType(itemset_type);
+        itemset.setItemsetStarttime(start_time);
+        itemset.setItemsetEndtime(end_time);
+        itemset.setUserNo(user_no);
+
+        return itemSetService.saveItemSet(itemset);
+
+    }
+
 
 
 
