@@ -11,6 +11,7 @@
         <module name="User" />
         <module name="common" />
         <module name="ItemSet" />
+        <module name="itemset" />
         <module name="Gateway" />
       </profile>
     </annotationProcessing>
@@ -35,6 +36,7 @@
       <module name="cloud" options="" />
       <module name="common" options="-parameters" />
       <module name="item" options="-parameters" />
+      <module name="itemset" options="-parameters" />
       <module name="itemsetlist" options="-parameters" />
       <module name="service-itemset" options="-parameters" />
       <module name="service-user" options="-parameters" />
