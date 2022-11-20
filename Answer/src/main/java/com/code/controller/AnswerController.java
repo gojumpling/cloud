@@ -25,9 +25,16 @@ import java.util.Map;
 public class AnswerController  implements AnswerClient {
 
 
+
+    private AnswerService answerService;
+
     @Autowired
-    AnswerService answerService;
-    @Override
+    public AnswerController(AnswerService answerService){
+        this.answerService = answerService;
+    }
+
+
+
     @RequestMapping("/Save")
     public boolean insertAnswer(@RequestBody Answer answer){
 
@@ -36,7 +43,6 @@ public class AnswerController  implements AnswerClient {
     }
 
 
-    @Override
     @RequestMapping("/PassingRate")
     public float getPassingRate(@RequestBody Map<String,Object> map){
 

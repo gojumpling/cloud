@@ -358,3 +358,63 @@ The last packet successfully received from the server was 420,126 milliseconds a
 
 2022-11-20 17:56:16,354 INFO Completed initialization in 8 ms
 
+2022-11-20 18:10:10,333 INFO Starting Nacos v1.4.3 on DESKTOP-8NSMUVB with PID 1712 (D:\学习\IDEA\代码\cloud\nacos\target\nacos-server.jar started by 1 in D:\学习\IDEA\代码\cloud)
+
+2022-11-20 18:10:10,333 INFO The following profiles are active: standalone
+
+2022-11-20 18:10:13,935 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@1ddae9b5' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2022-11-20 18:10:13,965 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2022-11-20 18:10:14,786 INFO Tomcat initialized with port(s): 8848 (http)
+
+2022-11-20 18:10:15,092 INFO Starting service [Tomcat]
+
+2022-11-20 18:10:15,093 INFO Starting Servlet engine: [Apache Tomcat/9.0.38]
+
+2022-11-20 18:10:15,639 INFO At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+
+2022-11-20 18:10:15,707 INFO Initializing Spring embedded WebApplicationContext
+
+2022-11-20 18:10:15,708 INFO Root WebApplicationContext: initialization completed in 5282 ms
+
+2022-11-20 18:10:16,101 INFO HikariPool-1 - Starting...
+
+2022-11-20 18:10:16,623 INFO HikariPool-1 - Start completed.
+
+2022-11-20 18:10:17,220 INFO Nacos-related cluster resource initialization
+
+2022-11-20 18:10:17,238 INFO The cluster resource is initialized
+
+2022-11-20 18:10:18,304 INFO Reflections took 82 ms to scan 1 urls, producing 4 keys and 6 values 
+
+2022-11-20 18:10:18,369 INFO Reflections took 21 ms to scan 1 urls, producing 6 keys and 26 values 
+
+2022-11-20 18:10:18,397 INFO Reflections took 11 ms to scan 1 urls, producing 3 keys and 15 values 
+
+2022-11-20 18:10:18,408 INFO Reflections took 3 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2022-11-20 18:10:20,314 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2022-11-20 18:10:20,555 INFO Adding welcome page: class path resource [static/index.html]
+
+2022-11-20 18:10:21,153 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2022-11-20 18:10:21,203 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@59fbb34, org.springframework.security.web.context.SecurityContextPersistenceFilter@60c73e58, org.springframework.security.web.header.HeaderWriterFilter@3b705be7, org.springframework.security.web.csrf.CsrfFilter@5a8816cc, org.springframework.security.web.authentication.logout.LogoutFilter@77ab22be, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6c0905f6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@204abeff, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1b6924cb, org.springframework.security.web.session.SessionManagementFilter@6fbb4061, org.springframework.security.web.access.ExceptionTranslationFilter@2ff7a73]
+
+2022-11-20 18:10:21,425 INFO Initializing ExecutorService 'taskScheduler'
+
+2022-11-20 18:10:21,480 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2022-11-20 18:10:21,713 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2022-11-20 18:10:21,721 INFO Started Nacos in 13.443 seconds (JVM running for 14.354)
+
+2022-11-20 18:10:21,721 INFO Nacos started successfully in stand alone mode. use external storage
+
+2022-11-20 18:10:42,133 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2022-11-20 18:10:42,133 INFO Initializing Servlet 'dispatcherServlet'
+
+2022-11-20 18:10:42,147 INFO Completed initialization in 13 ms
+

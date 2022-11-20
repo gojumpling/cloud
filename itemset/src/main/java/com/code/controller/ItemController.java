@@ -34,14 +34,24 @@ import java.util.Map;
 @RequestMapping("/Item")
 public class ItemController {
 
-    @Autowired
-    ItemService itemService;
+
+    private ItemService itemService;
+
+
+    private TestcaseService testcaseService;
+
+
+    private AnswerClient answerClient;
 
     @Autowired
-    TestcaseService testcaseService;
+    public ItemController(ItemService itemService,TestcaseService testcaseService,AnswerClient answerClient){
+        this.itemService = itemService;
+        this.testcaseService = testcaseService;
+        this.answerClient = answerClient;
 
-    @Autowired
-    AnswerClient answerClient;
+    }
+
+
 
     @RequestMapping("/Item_info")
     public Item getItem(@RequestBody Map<String,Object> map){

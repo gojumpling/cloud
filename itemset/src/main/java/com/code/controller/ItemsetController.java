@@ -35,15 +35,20 @@ import java.util.*;
 @RequestMapping("/Itemset")
 public class ItemsetController {
 
-    @Autowired
-    ItemsetService itemSetService;
 
-    @Autowired
-    ItemService itemService;
+    private ItemsetService itemSetService;
 
 
+    private ItemService itemService;
+
+    private UserClient userClient;
+
     @Autowired
-    UserClient userClient;
+    public ItemsetController(ItemsetService itemSetService,ItemService itemService,UserClient userClient){
+        this.itemSetService = itemSetService;
+        this.itemService = itemService;
+        this.userClient = userClient;
+    }
 
 
     @RequestMapping("/ExperimentItemSet")

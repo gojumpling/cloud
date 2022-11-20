@@ -3354,3 +3354,65 @@
 
 2022-11-20 17:56:21,033 INFO [long-pulling] client count 0
 
+2022-11-20 18:10:18,945 INFO [long-pulling] client count 0
+
+2022-11-20 18:10:28,718 INFO toNotifyTaskSize = 0
+
+2022-11-20 18:10:28,727 INFO groupCount = 0, subscriberClientCount = 0, subscriberCount = 0
+
+2022-11-20 18:10:29,355 INFO [long-pulling] client count 0
+
+2022-11-20 18:10:38,724 INFO toNotifyTaskSize = 0
+
+2022-11-20 18:10:38,731 INFO groupCount = 0, subscriberClientCount = 0, subscriberCount = 0
+
+2022-11-20 18:10:39,363 INFO [long-pulling] client count 0
+
+2022-11-20 18:10:48,749 INFO groupCount = 0, subscriberClientCount = 0, subscriberCount = 0
+
+2022-11-20 18:10:48,749 INFO toNotifyTaskSize = 0
+
+2022-11-20 18:10:49,390 INFO [long-pulling] client count 0
+
+2022-11-20 18:10:58,752 INFO toNotifyTaskSize = 0
+
+2022-11-20 18:10:58,752 INFO groupCount = 0, subscriberClientCount = 0, subscriberCount = 0
+
+2022-11-20 18:10:59,400 INFO [long-pulling] client count 0
+
+2022-11-20 18:11:08,769 INFO groupCount = 0, subscriberClientCount = 0, subscriberCount = 0
+
+2022-11-20 18:11:08,769 INFO toNotifyTaskSize = 0
+
+2022-11-20 18:11:09,403 INFO [long-pulling] client count 0
+
+2022-11-20 18:11:18,786 INFO groupCount = 0, subscriberClientCount = 0, subscriberCount = 0
+
+2022-11-20 18:11:18,786 INFO toNotifyTaskSize = 0
+
+2022-11-20 18:11:19,420 INFO [long-pulling] client count 0
+
+2022-11-20 18:11:28,791 INFO toNotifyTaskSize = 0
+
+2022-11-20 18:11:28,792 INFO groupCount = 0, subscriberClientCount = 0, subscriberCount = 0
+
+2022-11-20 18:11:29,424 INFO [long-pulling] client count 0
+
+2022-11-20 18:11:38,801 INFO groupCount = 0, subscriberClientCount = 0, subscriberCount = 0
+
+2022-11-20 18:11:38,801 INFO toNotifyTaskSize = 0
+
+2022-11-20 18:11:39,441 INFO [long-pulling] client count 0
+
+2022-11-20 18:11:48,808 INFO toNotifyTaskSize = 0
+
+2022-11-20 18:11:48,808 INFO groupCount = 0, subscriberClientCount = 0, subscriberCount = 0
+
+2022-11-20 18:11:49,447 INFO [long-pulling] client count 0
+
+2022-11-20 18:11:58,809 INFO toNotifyTaskSize = 0
+
+2022-11-20 18:11:58,809 INFO groupCount = 0, subscriberClientCount = 0, subscriberCount = 0
+
+2022-11-20 18:11:59,449 INFO [long-pulling] client count 0
+

@@ -30,11 +30,17 @@ import java.util.Map;
 @RequestMapping("/User")
 public class UserController {
 
-    @Autowired
-    UserService userService;
+
+    private UserService userService;
+
+
+    private ItemSetClient itemSetClient;
 
     @Autowired
-    ItemSetClient itemSetClient;
+    public UserController(UserService userService,ItemSetClient itemSetClient){
+        this.userService = userService;
+        this.itemSetClient = itemSetClient;
+    }
 
 
 

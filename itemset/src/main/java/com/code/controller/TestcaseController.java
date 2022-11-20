@@ -26,8 +26,15 @@ import java.util.Map;
 public class TestcaseController {
 
 
+
+    private TestcaseService testcaseService;
+
+
     @Autowired
-    TestcaseService testcaseService;
+    public TestcaseController(TestcaseService testcaseService){
+        this.testcaseService = testcaseService;
+    }
+
 
     @RequestMapping("/InsertTestCase")
     public Long insertTestCase(@RequestBody Map<String,Object> map){
