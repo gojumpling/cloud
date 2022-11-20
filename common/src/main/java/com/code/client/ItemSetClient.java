@@ -3,9 +3,11 @@ package com.code.client;
 
 import com.code.pojo.Item;
 import com.code.pojo.Itemset;
+import com.code.pojo.Testcase;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
 import java.util.Map;
@@ -20,5 +22,7 @@ public interface ItemSetClient {
     @RequestMapping("/Itemset/ItemList")
      List<Item> getItemList(@RequestBody List<Itemset> list);
 
+    @RequestMapping("/Testcase/GetTestCase")
+    List<Testcase> getTestCase(@RequestBody Map<String,Object> map);
 
 }

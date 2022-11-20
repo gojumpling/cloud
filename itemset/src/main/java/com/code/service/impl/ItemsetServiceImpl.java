@@ -1,16 +1,16 @@
 package com.code.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
-import com.code.client.UserClient;
+
 import com.code.pojo.Itemset;
 import com.code.mapper.ItemsetMapper;
-import com.code.service.ItemsetService;
+import com.code.service.ItemSetService;
+
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
+
 
 /**
  * <p>
@@ -21,7 +21,7 @@ import java.util.Map;
  * @since 2022-11-05
  */
 @Service
-public class ItemsetServiceImpl extends ServiceImpl<ItemsetMapper, Itemset> implements ItemsetService {
+public class ItemSetServiceImpl extends ServiceImpl<ItemsetMapper, Itemset> implements ItemSetService {
     @Override
     public List<Itemset> getExperimentItemSet() {
         LambdaQueryWrapper<Itemset> lambdaQueryWrapper = new LambdaQueryWrapper<>();

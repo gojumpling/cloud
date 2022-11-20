@@ -1,0 +1,488 @@
+2022-11-22 09:27:18,937 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: nchu, new ips size: 1, content: [192.168.55.5:8080:unknown:nchu_1.0_true_false_nchu]
+
+2022-11-22 09:27:18,944 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 192.168.55.5:8080_true,
+
+2022-11-22 09:27:35,893 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.55.5:8005:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-22 09:27:35,893 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.55.5:8005_true,
+
+2022-11-22 09:27:46,018 INFO DEFAULT_GROUP@@item-set-service {SYNC} {IP-NEW} cluster: pingxiang, new ips size: 1, content: [192.168.55.5:8003:unknown:pingxiang_1.0_true_false_pingxiang]
+
+2022-11-22 09:27:46,018 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 192.168.55.5:8003_true,
+
+2022-11-22 09:27:54,482 INFO DEFAULT_GROUP@@item-set-service {SYNC} {IP-NEW} cluster: nchu, new ips size: 1, content: [192.168.55.5:8004:unknown:nchu_1.0_true_false_nchu]
+
+2022-11-22 09:27:54,483 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 192.168.55.5:8004_true,192.168.55.5:8003_true,
+
+2022-11-22 09:29:24,784 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: nchu, dead ips size: 1, content: [192.168.55.5:8080:unknown:nchu_1.0_true_false_nchu]
+
+2022-11-22 09:29:24,784 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-22 09:29:34,636 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: nchu, new ips size: 1, content: [192.168.55.5:8080:unknown:nchu_1.0_true_false_nchu]
+
+2022-11-22 09:29:34,636 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 192.168.55.5:8080_true,
+
+2022-11-22 09:31:08,752 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: nchu, dead ips size: 1, content: [192.168.55.5:8080:unknown:nchu_1.0_true_false_nchu]
+
+2022-11-22 09:31:08,752 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-22 09:31:16,601 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: nchu, new ips size: 1, content: [192.168.55.5:8080:unknown:nchu_1.0_true_false_nchu]
+
+2022-11-22 09:31:16,601 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 192.168.55.5:8080_true,
+
+2022-11-22 09:31:46,300 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: nchu, dead ips size: 1, content: [192.168.55.5:8080:unknown:nchu_1.0_true_false_nchu]
+
+2022-11-22 09:31:46,300 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-22 09:31:53,816 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: nchu, new ips size: 1, content: [192.168.55.5:8080:unknown:nchu_1.0_true_false_nchu]
+
+2022-11-22 09:31:53,816 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 192.168.55.5:8080_true,
+
+2022-11-22 09:33:03,446 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: nchu, dead ips size: 1, content: [192.168.55.5:8080:unknown:nchu_1.0_true_false_nchu]
+
+2022-11-22 09:33:03,446 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-22 09:33:03,878 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.55.5:8005:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-22 09:33:03,878 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
+
+2022-11-22 09:33:03,934 INFO DEFAULT_GROUP@@item-set-service {SYNC} {IP-DEAD} cluster: pingxiang, dead ips size: 1, content: [192.168.55.5:8003:unknown:pingxiang_1.0_true_false_pingxiang]
+
+2022-11-22 09:33:03,934 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 192.168.55.5:8004_true,
+
+2022-11-22 09:33:03,960 INFO DEFAULT_GROUP@@item-set-service {SYNC} {IP-DEAD} cluster: nchu, dead ips size: 1, content: [192.168.55.5:8004:unknown:nchu_1.0_true_false_nchu]
+
+2022-11-22 09:33:03,960 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 
+
+2022-11-22 17:17:15,575 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.6:8005:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-22 17:17:15,581 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 10.86.88.6:8005_true,
+
+2022-11-22 17:17:22,137 INFO DEFAULT_GROUP@@answer-service {SYNC} {IP-NEW} cluster: pingxiang, new ips size: 1, content: [10.86.88.6:8002:unknown:pingxiang_1.0_true_false_pingxiang]
+
+2022-11-22 17:17:22,137 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 10.86.88.6:8002_true,
+
+2022-11-22 17:17:32,367 INFO DEFAULT_GROUP@@answer-service {SYNC} {IP-NEW} cluster: nchu, new ips size: 1, content: [10.86.88.6:8001:unknown:nchu_1.0_true_false_nchu]
+
+2022-11-22 17:17:32,374 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 10.86.88.6:8001_true,10.86.88.6:8002_true,
+
+2022-11-22 17:17:40,645 INFO DEFAULT_GROUP@@item-set-service {SYNC} {IP-NEW} cluster: pingxiang, new ips size: 1, content: [10.86.88.6:8003:unknown:pingxiang_1.0_true_false_pingxiang]
+
+2022-11-22 17:17:40,645 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 10.86.88.6:8003_true,
+
+2022-11-22 17:17:47,962 INFO DEFAULT_GROUP@@item-set-service {SYNC} {IP-NEW} cluster: nchu, new ips size: 1, content: [10.86.88.6:8004:unknown:nchu_1.0_true_false_nchu]
+
+2022-11-22 17:17:47,962 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 10.86.88.6:8004_true,10.86.88.6:8003_true,
+
+2022-11-22 17:17:56,593 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: nchu, new ips size: 1, content: [10.86.88.6:8080:unknown:nchu_1.0_true_false_nchu]
+
+2022-11-22 17:17:56,593 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.6:8080_true,
+
+2022-11-22 18:00:25,196 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 10.86.88.6:8001_true,10.86.88.6:8002_true,
+
+2022-11-22 18:04:45,673 INFO {POS} {IP-DISABLED} valid: 10.86.88.6:8004@nchu@DEFAULT_GROUP@@item-set-service, region: unknown, msg: client timeout after 15000, last beat: 1669111469435
+
+2022-11-22 18:04:47,664 INFO {POS} {IP-DISABLED} valid: 10.86.88.6:8001@nchu@DEFAULT_GROUP@@answer-service, region: unknown, msg: client timeout after 15000, last beat: 1669111470892
+
+2022-11-22 18:04:50,686 INFO {POS} {IP-DISABLED} valid: 10.86.88.6:8005@DEFAULT@DEFAULT_GROUP@@user-service, region: unknown, msg: client timeout after 15000, last beat: 1669111471856
+
+2022-11-22 18:04:50,686 INFO {POS} {IP-DISABLED} valid: 10.86.88.6:8003@pingxiang@DEFAULT_GROUP@@item-set-service, region: unknown, msg: client timeout after 15000, last beat: 1669111471854
+
+2022-11-22 18:04:52,671 INFO {POS} {IP-DISABLED} valid: 10.86.88.6:8002@pingxiang@DEFAULT_GROUP@@answer-service, region: unknown, msg: client timeout after 15000, last beat: 1669111473553
+
+2022-11-22 18:05:00,782 INFO DEFAULT_GROUP@@item-set-service {SYNC} {IP-DEAD} cluster: nchu, dead ips size: 1, content: [10.86.88.6:8004:unknown:nchu_1.0_false_false_nchu]
+
+2022-11-22 18:05:00,782 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 10.86.88.6:8003_false,
+
+2022-11-22 18:05:02,693 INFO DEFAULT_GROUP@@answer-service {SYNC} {IP-DEAD} cluster: nchu, dead ips size: 1, content: [10.86.88.6:8001:unknown:nchu_1.0_false_false_nchu]
+
+2022-11-22 18:05:02,693 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 10.86.88.6:8002_false,
+
+2022-11-22 18:05:05,721 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.6:8005:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-11-22 18:05:05,722 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
+
+2022-11-22 18:05:05,779 INFO DEFAULT_GROUP@@item-set-service {SYNC} {IP-DEAD} cluster: pingxiang, dead ips size: 1, content: [10.86.88.6:8003:unknown:pingxiang_1.0_false_false_pingxiang]
+
+2022-11-22 18:05:05,779 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 
+
+2022-11-22 18:05:07,740 INFO DEFAULT_GROUP@@answer-service {SYNC} {IP-DEAD} cluster: pingxiang, dead ips size: 1, content: [10.86.88.6:8002:unknown:pingxiang_1.0_false_false_pingxiang]
+
+2022-11-22 18:05:07,740 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 
+
+2022-11-22 18:06:56,975 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.6:8005:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-22 18:06:56,975 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 10.86.88.6:8005_true,
+
+2022-11-22 18:07:20,172 INFO DEFAULT_GROUP@@item-set-service {SYNC} {IP-NEW} cluster: pingxiang, new ips size: 1, content: [10.86.88.6:8003:unknown:pingxiang_1.0_true_false_pingxiang]
+
+2022-11-22 18:07:20,172 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 10.86.88.6:8003_true,
+
+2022-11-22 18:07:24,914 INFO DEFAULT_GROUP@@item-set-service {SYNC} {IP-NEW} cluster: nchu, new ips size: 1, content: [10.86.88.6:8004:unknown:nchu_1.0_true_false_nchu]
+
+2022-11-22 18:07:24,915 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 10.86.88.6:8004_true,10.86.88.6:8003_true,
+
+2022-11-22 18:07:41,113 INFO DEFAULT_GROUP@@answer-service {SYNC} {IP-NEW} cluster: pingxiang, new ips size: 1, content: [10.86.88.6:8002:unknown:pingxiang_1.0_true_false_pingxiang]
+
+2022-11-22 18:07:41,113 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 10.86.88.6:8002_true,
+
+2022-11-22 18:07:51,472 INFO DEFAULT_GROUP@@answer-service {SYNC} {IP-NEW} cluster: nchu, new ips size: 1, content: [10.86.88.6:8001:unknown:nchu_1.0_true_false_nchu]
+
+2022-11-22 18:07:51,472 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 10.86.88.6:8001_true,10.86.88.6:8002_true,
+
+2022-11-22 18:08:21,198 INFO {POS} {IP-DISABLED} valid: 10.86.88.6:8002@pingxiang@DEFAULT_GROUP@@answer-service, region: unknown, msg: client timeout after 15000, last beat: 1669111686179
+
+2022-11-22 18:08:25,317 INFO {POS} {IP-DISABLED} valid: 10.86.88.6:8004@nchu@DEFAULT_GROUP@@item-set-service, region: unknown, msg: client timeout after 15000, last beat: 1669111689998
+
+2022-11-22 18:08:30,327 INFO {POS} {IP-DISABLED} valid: 10.86.88.6:8003@pingxiang@DEFAULT_GROUP@@item-set-service, region: unknown, msg: client timeout after 15000, last beat: 1669111690354
+
+2022-11-22 18:08:31,071 INFO {POS} {IP-DISABLED} valid: 10.86.88.6:8005@DEFAULT@DEFAULT_GROUP@@user-service, region: unknown, msg: client timeout after 15000, last beat: 1669111692185
+
+2022-11-22 18:08:31,210 INFO {POS} {IP-DISABLED} valid: 10.86.88.6:8001@nchu@DEFAULT_GROUP@@answer-service, region: unknown, msg: client timeout after 15000, last beat: 1669111691520
+
+2022-11-22 18:08:32,402 INFO {POS} {IP-DISABLED} valid: 10.86.88.6:8080@nchu@DEFAULT_GROUP@@gateway-service, region: unknown, msg: client timeout after 15000, last beat: 1669111693519
+
+2022-11-22 18:08:36,216 INFO DEFAULT_GROUP@@answer-service {SYNC} {IP-DEAD} cluster: pingxiang, dead ips size: 1, content: [10.86.88.6:8002:unknown:pingxiang_1.0_false_false_pingxiang]
+
+2022-11-22 18:08:36,216 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 10.86.88.6:8001_false,
+
+2022-11-22 18:08:40,339 INFO DEFAULT_GROUP@@item-set-service {SYNC} {IP-DEAD} cluster: nchu, dead ips size: 1, content: [10.86.88.6:8004:unknown:nchu_1.0_false_false_nchu]
+
+2022-11-22 18:08:40,339 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 10.86.88.6:8003_false,
+
+2022-11-22 18:08:45,348 INFO DEFAULT_GROUP@@item-set-service {SYNC} {IP-DEAD} cluster: pingxiang, dead ips size: 1, content: [10.86.88.6:8003:unknown:pingxiang_1.0_false_false_pingxiang]
+
+2022-11-22 18:08:45,348 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 
+
+2022-11-22 18:08:46,106 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.6:8005:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-11-22 18:08:46,106 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
+
+2022-11-22 18:08:46,229 INFO DEFAULT_GROUP@@answer-service {SYNC} {IP-DEAD} cluster: nchu, dead ips size: 1, content: [10.86.88.6:8001:unknown:nchu_1.0_false_false_nchu]
+
+2022-11-22 18:08:46,229 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 
+
+2022-11-22 18:08:47,429 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: nchu, dead ips size: 1, content: [10.86.88.6:8080:unknown:nchu_1.0_false_false_nchu]
+
+2022-11-22 18:08:47,429 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-22 18:08:48,039 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.86.88.6:8005:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-22 18:08:48,039 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 10.86.88.6:8005_true,
+
+2022-11-22 18:08:53,447 INFO DEFAULT_GROUP@@answer-service {SYNC} {IP-NEW} cluster: pingxiang, new ips size: 1, content: [10.86.88.6:8002:unknown:pingxiang_1.0_true_false_pingxiang]
+
+2022-11-22 18:08:53,447 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 10.86.88.6:8002_true,
+
+2022-11-22 18:09:00,557 INFO DEFAULT_GROUP@@answer-service {SYNC} {IP-NEW} cluster: nchu, new ips size: 1, content: [10.86.88.6:8001:unknown:nchu_1.0_true_false_nchu]
+
+2022-11-22 18:09:00,557 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 10.86.88.6:8001_true,10.86.88.6:8002_true,
+
+2022-11-22 18:09:07,033 INFO DEFAULT_GROUP@@item-set-service {SYNC} {IP-NEW} cluster: pingxiang, new ips size: 1, content: [10.86.88.6:8003:unknown:pingxiang_1.0_true_false_pingxiang]
+
+2022-11-22 18:09:07,033 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 10.86.88.6:8003_true,
+
+2022-11-22 18:09:14,241 INFO DEFAULT_GROUP@@item-set-service {SYNC} {IP-NEW} cluster: nchu, new ips size: 1, content: [10.86.88.6:8004:unknown:nchu_1.0_true_false_nchu]
+
+2022-11-22 18:09:14,241 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 10.86.88.6:8004_true,10.86.88.6:8003_true,
+
+2022-11-22 18:09:20,223 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: nchu, new ips size: 1, content: [10.86.88.6:8080:unknown:nchu_1.0_true_false_nchu]
+
+2022-11-22 18:09:20,223 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.6:8080_true,
+
+2022-11-22 18:12:21,138 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: nchu, dead ips size: 1, content: [10.86.88.6:8080:unknown:nchu_1.0_true_false_nchu]
+
+2022-11-22 18:12:21,138 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-22 18:12:30,642 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: nchu, new ips size: 1, content: [10.86.88.6:8080:unknown:nchu_1.0_true_false_nchu]
+
+2022-11-22 18:12:30,642 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 10.86.88.6:8080_true,
+
+2022-11-22 18:12:31,667 INFO {POS} {IP-DISABLED} valid: 10.86.88.6:8001@nchu@DEFAULT_GROUP@@answer-service, region: unknown, msg: client timeout after 15000, last beat: 1669111936206
+
+2022-11-22 18:12:35,878 INFO {POS} {IP-DISABLED} valid: 10.86.88.6:8004@nchu@DEFAULT_GROUP@@item-set-service, region: unknown, msg: client timeout after 15000, last beat: 1669111939618
+
+2022-11-22 18:12:35,878 INFO {POS} {IP-DISABLED} valid: 10.86.88.6:8003@pingxiang@DEFAULT_GROUP@@item-set-service, region: unknown, msg: client timeout after 15000, last beat: 1669111937423
+
+2022-11-22 18:12:36,669 INFO {POS} {IP-DISABLED} valid: 10.86.88.6:8002@pingxiang@DEFAULT_GROUP@@answer-service, region: unknown, msg: client timeout after 15000, last beat: 1669111938859
+
+2022-11-22 18:12:36,670 INFO {POS} {IP-DISABLED} valid: 10.86.88.6:8005@DEFAULT@DEFAULT_GROUP@@user-service, region: unknown, msg: client timeout after 15000, last beat: 1669111938546
+
+2022-11-22 18:12:39,150 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 10.86.88.6:8005_false,
+
+2022-11-22 18:12:43,582 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 10.86.88.6:8001_false,10.86.88.6:8002_false,
+
+2022-11-22 18:12:44,162 INFO service: DEFAULT_GROUP@@user-service {POS} {IP-ENABLED} valid: 10.86.88.6:8005@DEFAULT, region: unknown, msg: client beat ok
+
+2022-11-22 18:12:48,593 INFO service: DEFAULT_GROUP@@answer-service {POS} {IP-ENABLED} valid: 10.86.88.6:8001@nchu, region: unknown, msg: client beat ok
+
+2022-11-22 18:12:50,551 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 10.86.88.6:8004_false,10.86.88.6:8003_false,
+
+2022-11-22 18:12:50,905 INFO DEFAULT_GROUP@@item-set-service {SYNC} {IP-DEAD} cluster: nchu, dead ips size: 1, content: [10.86.88.6:8004:unknown:nchu_1.0_false_false_nchu]
+
+2022-11-22 18:12:50,905 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 10.86.88.6:8003_false,
+
+2022-11-22 18:12:51,689 INFO DEFAULT_GROUP@@answer-service {SYNC} {IP-DEAD} cluster: pingxiang, dead ips size: 1, content: [10.86.88.6:8002:unknown:pingxiang_1.0_false_false_pingxiang]
+
+2022-11-22 18:12:51,689 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 10.86.88.6:8001_true,
+
+2022-11-22 18:12:55,561 INFO service: DEFAULT_GROUP@@item-set-service {POS} {IP-ENABLED} valid: 10.86.88.6:8003@pingxiang, region: unknown, msg: client beat ok
+
+2022-11-22 18:12:56,734 INFO DEFAULT_GROUP@@item-set-service {SYNC} {IP-NEW} cluster: nchu, new ips size: 1, content: [10.86.88.6:8004:unknown:nchu_1.0_true_false_nchu]
+
+2022-11-22 18:12:56,735 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 10.86.88.6:8004_true,10.86.88.6:8003_true,
+
+2022-11-22 18:13:02,127 INFO DEFAULT_GROUP@@answer-service {SYNC} {IP-NEW} cluster: pingxiang, new ips size: 1, content: [10.86.88.6:8002:unknown:pingxiang_1.0_true_false_pingxiang]
+
+2022-11-22 18:13:02,127 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 10.86.88.6:8001_true,10.86.88.6:8002_true,
+
+2022-11-22 18:18:26,421 INFO {POS} {IP-DISABLED} valid: 10.86.88.6:8003@pingxiang@DEFAULT_GROUP@@item-set-service, region: unknown, msg: client timeout after 15000, last beat: 1669112291260
+
+2022-11-22 18:18:29,517 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 10.86.88.6:8004_true,10.86.88.6:8003_false,
+
+2022-11-22 18:18:31,428 INFO {POS} {IP-DISABLED} valid: 10.86.88.6:8004@nchu@DEFAULT_GROUP@@item-set-service, region: unknown, msg: client timeout after 15000, last beat: 1669112292441
+
+2022-11-22 18:18:34,530 INFO service: DEFAULT_GROUP@@item-set-service {POS} {IP-ENABLED} valid: 10.86.88.6:8003@pingxiang, region: unknown, msg: client beat ok
+
+2022-11-22 18:18:35,706 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 10.86.88.6:8004_false,10.86.88.6:8003_true,
+
+2022-11-22 18:18:40,718 INFO service: DEFAULT_GROUP@@item-set-service {POS} {IP-ENABLED} valid: 10.86.88.6:8004@nchu, region: unknown, msg: client beat ok
+
+2022-11-22 18:20:31,664 INFO {POS} {IP-DISABLED} valid: 10.86.88.6:8004@nchu@DEFAULT_GROUP@@item-set-service, region: unknown, msg: client timeout after 15000, last beat: 1669112415923
+
+2022-11-22 18:20:33,318 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 10.86.88.6:8004_false,10.86.88.6:8003_true,
+
+2022-11-22 18:20:39,994 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 10.86.88.6:8004_false,10.86.88.6:8003_true,
+
+2022-11-22 18:20:45,009 INFO service: DEFAULT_GROUP@@item-set-service {POS} {IP-ENABLED} valid: 10.86.88.6:8004@nchu, region: unknown, msg: client beat ok
+
+2022-11-22 18:20:59,295 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 10.86.88.6:8001_true,10.86.88.6:8002_true,
+
+2022-11-22 18:21:02,530 INFO {POS} {IP-DISABLED} valid: 10.86.88.6:8001@nchu@DEFAULT_GROUP@@answer-service, region: unknown, msg: client timeout after 15000, last beat: 1669112444740
+
+2022-11-22 18:21:04,325 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 10.86.88.6:8001_false,10.86.88.6:8002_true,
+
+2022-11-22 18:21:09,336 INFO service: DEFAULT_GROUP@@answer-service {POS} {IP-ENABLED} valid: 10.86.88.6:8001@nchu, region: unknown, msg: client beat ok
+
+2022-11-22 18:22:03,117 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 10.86.88.6:8001_true,10.86.88.6:8002_true,
+
+2022-11-22 18:22:07,554 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 10.86.88.6:8001_true,10.86.88.6:8002_true,
+
+2022-11-22 18:28:04,718 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: nchu, dead ips size: 1, content: [10.86.88.6:8080:unknown:nchu_1.0_true_false_nchu]
+
+2022-11-22 18:28:04,718 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-22 18:28:13,493 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: nchu, new ips size: 1, content: [192.168.226.5:8080:unknown:nchu_1.0_true_false_nchu]
+
+2022-11-22 18:28:13,493 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 192.168.226.5:8080_true,
+
+2022-11-22 18:29:15,735 INFO DEFAULT_GROUP@@answer-service {SYNC} {IP-NEW} cluster: nchu, new ips size: 1, content: [192.168.226.5:8001:unknown:nchu_1.0_true_false_nchu]
+
+2022-11-22 18:29:15,735 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 192.168.226.5:8001_true,10.86.88.6:8001_true,10.86.88.6:8002_true,
+
+2022-11-22 18:29:20,779 INFO {POS} {IP-DISABLED} valid: 10.86.88.6:8004@nchu@DEFAULT_GROUP@@item-set-service, region: unknown, msg: client timeout after 15000, last beat: 1669112944384
+
+2022-11-22 18:29:20,779 INFO {POS} {IP-DISABLED} valid: 10.86.88.6:8003@pingxiang@DEFAULT_GROUP@@item-set-service, region: unknown, msg: client timeout after 15000, last beat: 1669112942601
+
+2022-11-22 18:29:21,300 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.226.5:8005:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-22 18:29:21,300 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.226.5:8005_true,10.86.88.6:8005_true,
+
+2022-11-22 18:29:21,613 INFO {POS} {IP-DISABLED} valid: 10.86.88.6:8002@pingxiang@DEFAULT_GROUP@@answer-service, region: unknown, msg: client timeout after 15000, last beat: 1669112942228
+
+2022-11-22 18:29:21,613 INFO {POS} {IP-DISABLED} valid: 10.86.88.6:8005@DEFAULT@DEFAULT_GROUP@@user-service, region: unknown, msg: client timeout after 15000, last beat: 1669112944463
+
+2022-11-22 18:29:22,787 INFO {POS} {IP-DISABLED} valid: 192.168.226.5:8080@nchu@DEFAULT_GROUP@@gateway-service, region: unknown, msg: client timeout after 15000, last beat: 1669112943609
+
+2022-11-22 18:29:26,619 INFO {POS} {IP-DISABLED} valid: 10.86.88.6:8001@nchu@DEFAULT_GROUP@@answer-service, region: unknown, msg: client timeout after 15000, last beat: 1669112946623
+
+2022-11-22 18:29:29,684 INFO DEFAULT_GROUP@@item-set-service {SYNC} {IP-NEW} cluster: pingxiang, new ips size: 1, content: [192.168.226.5:8003:unknown:pingxiang_1.0_true_false_pingxiang]
+
+2022-11-22 18:29:29,684 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 10.86.88.6:8004_false,192.168.226.5:8003_true,10.86.88.6:8003_false,
+
+2022-11-22 18:29:35,835 INFO DEFAULT_GROUP@@item-set-service {SYNC} {IP-DEAD} cluster: pingxiang, dead ips size: 1, content: [10.86.88.6:8003:unknown:pingxiang_1.0_false_false_pingxiang]
+
+2022-11-22 18:29:35,835 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 10.86.88.6:8004_false,192.168.226.5:8003_true,
+
+2022-11-22 18:29:35,836 INFO DEFAULT_GROUP@@item-set-service {SYNC} {IP-DEAD} cluster: nchu, dead ips size: 1, content: [10.86.88.6:8004:unknown:nchu_1.0_false_false_nchu]
+
+2022-11-22 18:29:35,836 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 192.168.226.5:8003_true,
+
+2022-11-22 18:29:36,652 INFO DEFAULT_GROUP@@answer-service {SYNC} {IP-DEAD} cluster: nchu, dead ips size: 1, content: [10.86.88.6:8001:unknown:nchu_1.0_false_false_nchu]
+
+2022-11-22 18:29:36,652 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 192.168.226.5:8001_true,10.86.88.6:8002_false,
+
+2022-11-22 18:29:36,653 INFO DEFAULT_GROUP@@answer-service {SYNC} {IP-DEAD} cluster: pingxiang, dead ips size: 1, content: [10.86.88.6:8002:unknown:pingxiang_1.0_false_false_pingxiang]
+
+2022-11-22 18:29:36,653 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 192.168.226.5:8001_true,
+
+2022-11-22 18:29:36,661 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.86.88.6:8005:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-11-22 18:29:36,661 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.226.5:8005_true,
+
+2022-11-22 18:29:37,857 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: nchu, dead ips size: 1, content: [192.168.226.5:8080:unknown:nchu_1.0_false_false_nchu]
+
+2022-11-22 18:29:37,857 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-22 18:29:38,890 INFO DEFAULT_GROUP@@item-set-service {SYNC} {IP-NEW} cluster: nchu, new ips size: 1, content: [192.168.226.5:8004:unknown:nchu_1.0_true_false_nchu]
+
+2022-11-22 18:29:38,890 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 192.168.226.5:8004_true,192.168.226.5:8003_true,
+
+2022-11-22 18:29:47,338 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: nchu, new ips size: 1, content: [192.168.226.5:8080:unknown:nchu_1.0_true_false_nchu]
+
+2022-11-22 18:29:47,338 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 192.168.226.5:8080_true,
+
+2022-11-22 18:29:53,274 INFO DEFAULT_GROUP@@answer-service {SYNC} {IP-NEW} cluster: pingxiang, new ips size: 1, content: [192.168.226.5:8002:unknown:pingxiang_1.0_true_false_pingxiang]
+
+2022-11-22 18:29:53,274 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 192.168.226.5:8001_true,192.168.226.5:8002_true,
+
+2022-11-22 18:37:42,449 INFO {POS} {IP-DISABLED} valid: 192.168.226.5:8001@nchu@DEFAULT_GROUP@@answer-service, region: unknown, msg: client timeout after 15000, last beat: 1669113446717
+
+2022-11-22 18:37:42,449 INFO {POS} {IP-DISABLED} valid: 192.168.226.5:8002@pingxiang@DEFAULT_GROUP@@answer-service, region: unknown, msg: client timeout after 15000, last beat: 1669113444181
+
+2022-11-22 18:37:43,895 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 192.168.226.5:8001_false,192.168.226.5:8002_false,
+
+2022-11-22 18:37:48,906 INFO service: DEFAULT_GROUP@@answer-service {POS} {IP-ENABLED} valid: 192.168.226.5:8002@pingxiang, region: unknown, msg: client beat ok
+
+2022-11-22 18:37:52,403 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 192.168.226.5:8001_false,192.168.226.5:8002_true,
+
+2022-11-22 18:37:57,419 INFO service: DEFAULT_GROUP@@answer-service {POS} {IP-ENABLED} valid: 192.168.226.5:8001@nchu, region: unknown, msg: client beat ok
+
+2022-11-22 18:43:29,161 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 192.168.226.5:8001_true,192.168.226.5:8002_true,
+
+2022-11-22 18:43:33,031 INFO {POS} {IP-DISABLED} valid: 192.168.226.5:8001@nchu@DEFAULT_GROUP@@answer-service, region: unknown, msg: client timeout after 15000, last beat: 1669113793075
+
+2022-11-22 18:43:35,304 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 192.168.226.5:8001_false,192.168.226.5:8002_true,
+
+2022-11-22 18:43:40,321 INFO service: DEFAULT_GROUP@@answer-service {POS} {IP-ENABLED} valid: 192.168.226.5:8001@nchu, region: unknown, msg: client beat ok
+
+2022-11-22 19:04:13,406 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: nchu, dead ips size: 1, content: [192.168.226.5:8080:unknown:nchu_1.0_true_false_nchu]
+
+2022-11-22 19:04:13,406 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-22 19:04:24,405 INFO {POS} {IP-DISABLED} valid: 192.168.226.5:8003@pingxiang@DEFAULT_GROUP@@item-set-service, region: unknown, msg: client timeout after 15000, last beat: 1669115048932
+
+2022-11-22 19:04:29,412 INFO {POS} {IP-DISABLED} valid: 192.168.226.5:8004@nchu@DEFAULT_GROUP@@item-set-service, region: unknown, msg: client timeout after 15000, last beat: 1669115053022
+
+2022-11-22 19:04:29,940 INFO {POS} {IP-DISABLED} valid: 192.168.226.5:8001@nchu@DEFAULT_GROUP@@answer-service, region: unknown, msg: client timeout after 15000, last beat: 1669115052772
+
+2022-11-22 19:04:29,940 INFO {POS} {IP-DISABLED} valid: 192.168.226.5:8002@pingxiang@DEFAULT_GROUP@@answer-service, region: unknown, msg: client timeout after 15000, last beat: 1669115051676
+
+2022-11-22 19:04:29,940 INFO {POS} {IP-DISABLED} valid: 192.168.226.5:8005@DEFAULT@DEFAULT_GROUP@@user-service, region: unknown, msg: client timeout after 15000, last beat: 1669115050559
+
+2022-11-22 19:04:39,425 INFO DEFAULT_GROUP@@item-set-service {SYNC} {IP-DEAD} cluster: pingxiang, dead ips size: 1, content: [192.168.226.5:8003:unknown:pingxiang_1.0_false_false_pingxiang]
+
+2022-11-22 19:04:39,425 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 192.168.226.5:8004_false,
+
+2022-11-22 19:04:44,434 INFO DEFAULT_GROUP@@item-set-service {SYNC} {IP-DEAD} cluster: nchu, dead ips size: 1, content: [192.168.226.5:8004:unknown:nchu_1.0_false_false_nchu]
+
+2022-11-22 19:04:44,434 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 
+
+2022-11-22 19:04:44,964 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.226.5:8005:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-11-22 19:04:44,964 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
+
+2022-11-22 19:04:44,964 INFO DEFAULT_GROUP@@answer-service {SYNC} {IP-DEAD} cluster: nchu, dead ips size: 1, content: [192.168.226.5:8001:unknown:nchu_1.0_false_false_nchu]
+
+2022-11-22 19:04:44,964 INFO DEFAULT_GROUP@@answer-service {SYNC} {IP-DEAD} cluster: pingxiang, dead ips size: 1, content: [192.168.226.5:8002:unknown:pingxiang_1.0_false_false_pingxiang]
+
+2022-11-22 19:04:44,964 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 
+
+2022-11-22 19:12:36,793 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.226.5:8005:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-22 19:12:36,798 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.226.5:8005_true,
+
+2022-11-22 19:12:41,262 INFO DEFAULT_GROUP@@answer-service {SYNC} {IP-NEW} cluster: pingxiang, new ips size: 1, content: [192.168.226.5:8002:unknown:pingxiang_1.0_true_false_pingxiang]
+
+2022-11-22 19:12:41,262 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 192.168.226.5:8002_true,
+
+2022-11-22 19:12:49,165 INFO DEFAULT_GROUP@@answer-service {SYNC} {IP-NEW} cluster: nchu, new ips size: 1, content: [192.168.226.5:8001:unknown:nchu_1.0_true_false_nchu]
+
+2022-11-22 19:12:49,165 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 192.168.226.5:8001_true,192.168.226.5:8002_true,
+
+2022-11-22 19:12:58,633 INFO DEFAULT_GROUP@@item-set-service {SYNC} {IP-NEW} cluster: pingxiang, new ips size: 1, content: [192.168.226.5:8003:unknown:pingxiang_1.0_true_false_pingxiang]
+
+2022-11-22 19:12:58,633 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 192.168.226.5:8003_true,
+
+2022-11-22 19:13:07,264 INFO DEFAULT_GROUP@@item-set-service {SYNC} {IP-NEW} cluster: nchu, new ips size: 1, content: [192.168.226.5:8004:unknown:nchu_1.0_true_false_nchu]
+
+2022-11-22 19:13:07,265 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 192.168.226.5:8004_true,192.168.226.5:8003_true,
+
+2022-11-22 19:13:13,174 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: nchu, new ips size: 1, content: [192.168.226.5:8080:unknown:nchu_1.0_true_false_nchu]
+
+2022-11-22 19:13:13,174 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 192.168.226.5:8080_true,
+
+2022-11-22 19:15:36,166 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: nchu, dead ips size: 1, content: [192.168.226.5:8080:unknown:nchu_1.0_true_false_nchu]
+
+2022-11-22 19:15:36,166 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-22 19:15:36,268 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.226.5:8005:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-22 19:15:36,268 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
+
+2022-11-22 19:15:36,385 INFO DEFAULT_GROUP@@answer-service {SYNC} {IP-DEAD} cluster: pingxiang, dead ips size: 1, content: [192.168.226.5:8002:unknown:pingxiang_1.0_true_false_pingxiang]
+
+2022-11-22 19:15:36,385 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 192.168.226.5:8001_true,
+
+2022-11-22 19:15:36,564 INFO DEFAULT_GROUP@@answer-service {SYNC} {IP-DEAD} cluster: nchu, dead ips size: 1, content: [192.168.226.5:8001:unknown:nchu_1.0_true_false_nchu]
+
+2022-11-22 19:15:36,564 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 
+
+2022-11-22 19:15:36,574 INFO DEFAULT_GROUP@@item-set-service {SYNC} {IP-DEAD} cluster: pingxiang, dead ips size: 1, content: [192.168.226.5:8003:unknown:pingxiang_1.0_true_false_pingxiang]
+
+2022-11-22 19:15:36,574 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 192.168.226.5:8004_true,
+
+2022-11-22 19:15:36,649 INFO DEFAULT_GROUP@@item-set-service {SYNC} {IP-DEAD} cluster: nchu, dead ips size: 1, content: [192.168.226.5:8004:unknown:nchu_1.0_true_false_nchu]
+
+2022-11-22 19:15:36,649 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 
+
+2022-11-22 19:22:22,964 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2022-11-22 19:22:36,221 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.226.5:8005:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-22 19:22:36,221 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.226.5:8005_true,
+
+2022-11-22 19:22:50,365 INFO DEFAULT_GROUP@@answer-service {SYNC} {IP-NEW} cluster: nchu, new ips size: 1, content: [192.168.226.5:8001:unknown:nchu_1.0_true_false_nchu]
+
+2022-11-22 19:22:50,365 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 192.168.226.5:8001_true,
+
+2022-11-22 19:23:06,611 INFO DEFAULT_GROUP@@item-set-service {SYNC} {IP-NEW} cluster: pingxiang, new ips size: 1, content: [192.168.226.5:8003:unknown:pingxiang_1.0_true_false_pingxiang]
+
+2022-11-22 19:23:06,611 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 192.168.226.5:8003_true,
+
+2022-11-22 19:23:16,771 INFO DEFAULT_GROUP@@item-set-service {SYNC} {IP-NEW} cluster: nchu, new ips size: 1, content: [192.168.226.5:8004:unknown:nchu_1.0_true_false_nchu]
+
+2022-11-22 19:23:16,771 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 192.168.226.5:8004_true,192.168.226.5:8003_true,
+
+2022-11-22 19:23:26,752 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: nchu, new ips size: 1, content: [192.168.226.5:8080:unknown:nchu_1.0_true_false_nchu]
+
+2022-11-22 19:23:26,752 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 192.168.226.5:8080_true,
+
+2022-11-22 19:23:31,031 INFO DEFAULT_GROUP@@answer-service {SYNC} {IP-NEW} cluster: pingxiang, new ips size: 1, content: [192.168.226.5:8002:unknown:pingxiang_1.0_true_false_pingxiang]
+
+2022-11-22 19:23:31,032 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 192.168.226.5:8001_true,192.168.226.5:8002_true,
+
+2022-11-22 19:25:15,790 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-DEAD} cluster: nchu, dead ips size: 1, content: [192.168.226.5:8080:unknown:nchu_1.0_true_false_nchu]
+
+2022-11-22 19:25:15,790 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-service, ips: 
+
+2022-11-22 19:25:15,961 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.226.5:8005:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-22 19:25:15,961 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
+
+2022-11-22 19:25:16,022 INFO DEFAULT_GROUP@@answer-service {SYNC} {IP-DEAD} cluster: pingxiang, dead ips size: 1, content: [192.168.226.5:8002:unknown:pingxiang_1.0_true_false_pingxiang]
+
+2022-11-22 19:25:16,022 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 192.168.226.5:8001_true,
+
+2022-11-22 19:25:16,068 INFO DEFAULT_GROUP@@answer-service {SYNC} {IP-DEAD} cluster: nchu, dead ips size: 1, content: [192.168.226.5:8001:unknown:nchu_1.0_true_false_nchu]
+
+2022-11-22 19:25:16,068 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@answer-service, ips: 
+
+2022-11-22 19:25:16,111 INFO DEFAULT_GROUP@@item-set-service {SYNC} {IP-DEAD} cluster: pingxiang, dead ips size: 1, content: [192.168.226.5:8003:unknown:pingxiang_1.0_true_false_pingxiang]
+
+2022-11-22 19:25:16,111 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 192.168.226.5:8004_true,
+
+2022-11-22 19:25:16,154 INFO DEFAULT_GROUP@@item-set-service {SYNC} {IP-DEAD} cluster: nchu, dead ips size: 1, content: [192.168.226.5:8004:unknown:nchu_1.0_true_false_nchu]
+
+2022-11-22 19:25:16,156 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@item-set-service, ips: 
+

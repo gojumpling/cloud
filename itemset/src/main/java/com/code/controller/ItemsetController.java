@@ -8,12 +8,12 @@ import com.code.pojo.ItemSetDetail;
 import com.code.pojo.Itemset;
 
 import com.code.pojo.User;
+
 import com.code.service.ItemService;
-import com.code.service.ItemsetService;
-import lombok.Data;
-import lombok.val;
-import org.checkerframework.checker.units.qual.A;
+import com.code.service.ItemSetService;
+
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -33,10 +33,11 @@ import java.util.*;
  */
 @RestController
 @RequestMapping("/Itemset")
-public class ItemsetController {
+@CrossOrigin(origins = "*")
+public class ItemSetController {
 
 
-    private ItemsetService itemSetService;
+    private ItemSetService itemSetService;
 
 
     private ItemService itemService;
@@ -44,7 +45,7 @@ public class ItemsetController {
     private UserClient userClient;
 
     @Autowired
-    public ItemsetController(ItemsetService itemSetService,ItemService itemService,UserClient userClient){
+    public ItemSetController(ItemSetService itemSetService,ItemService itemService,UserClient userClient){
         this.itemSetService = itemSetService;
         this.itemService = itemService;
         this.userClient = userClient;

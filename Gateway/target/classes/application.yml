@@ -1,6 +1,8 @@
 server:
   port: 8080
 
+
+
 spring:
   application:
     name: gateway-service
@@ -13,6 +15,18 @@ spring:
       nacos:
         enabled: true
     gateway:
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            # 允许携带认证信息
+            allow-credentials: true
+            # 允许跨域的源(网站域名/ip)，设置*为全部
+            allowedOriginPatterns: "*"
+            # 允许跨域的method， 默认为GET和OPTIONS，设置*为全部
+            allowedMethods: "*"
+            # 允许跨域请求里的head字段，设置*为全部
+            allowedHeaders: "*"
+
       discovery:
         locator:
           enabled: true
@@ -22,17 +36,7 @@ spring:
         - id: item-set   # 路由名称
           uri: lb://item-set-service  # 路由的地址，lb表示使用负载均衡到微服务，也可以使用http正常转发
           predicates: # 路由规则，断言什么请求会被路由
-            - Path=/Itemset/**  # 只要是访问的这个路径，一律都被路由到上面指定的服务
-
-        - id: item   # 路由名称
-          uri: lb://item-set-service  # 路由的地址，lb表示使用负载均衡到微服务，也可以使用http正常转发
-          predicates: # 路由规则，断言什么请求会被路由
-            - Path=/Item/**  # 只要是访问的这个路径，一律都被路由到上面指定的服务
-
-        - id: testcase   # 路由名称
-          uri: lb://item-set-service  # 路由的地址，lb表示使用负载均衡到微服务，也可以使用http正常转发
-          predicates: # 路由规则，断言什么请求会被路由
-            - Path=/Testcase/**  # 只要是访问的这个路径，一律都被路由到上面指定的服务
+            - Path=/Itemset/**,/Item/**,/Testcase/**  # 只要是访问的这个路径，一律都被路由到上面指定的服务
 
 
         - id: answer   # 路由名称
@@ -44,6 +48,8 @@ spring:
           uri: lb://user-service  # 路由的地址，lb表示使用负载均衡到微服务，也可以使用http正常转发
           predicates: # 路由规则，断言什么请求会被路由
             - Path=/User/**  # 只要是访问的这个路径，一律都被路由到上面指定的服务
+
+
 
 
 

@@ -13,7 +13,7 @@ import java.util.List;
  * @author xiaoshuai
  * @since 2022-11-05
  */
-public interface ItemsetService extends IService<Itemset> {
+public interface ItemSetService extends IService<Itemset> {
 
     public List<Itemset> getExperimentItemSet();
     public List<Itemset> getMyItemSet(String user_no);

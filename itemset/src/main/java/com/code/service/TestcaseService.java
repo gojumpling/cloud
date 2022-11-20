@@ -15,10 +15,10 @@ import java.util.List;
  */
 public interface TestcaseService extends IService<Testcase> {
 
-    public List<Testcase> getItemTestcase(String item_id);
+     List<Testcase> getItemTestcase(String item_id);
 
 
-    public int getItemGrade(String item_id);
+     int getItemGrade(String item_id);
 
     Long saveTestcase(Testcase testcase);
 

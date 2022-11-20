@@ -7,6 +7,8 @@ import com.code.service.AnswerService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 /**
  * <p>
  *  服务实现类
@@ -46,5 +48,21 @@ public class AnswerServiceImpl extends ServiceImpl<AnswerMapper, Answer> impleme
         int sum = this.count(lambdaQueryWrapper);
 
         return sum;
+    }
+
+    @Override
+    public Answer getAnswerRecord(String user_no, String item_id, String itemset_id) {
+        LambdaQueryWrapper<Answer> lambdaQueryWrapper = new LambdaQueryWrapper();
+        lambdaQueryWrapper.eq(Answer::getUserNo,user_no);
+        lambdaQueryWrapper.eq(Answer::getItemsetId,itemset_id);
+        lambdaQueryWrapper.eq(Answer::getItemId,item_id);
+
+        lambdaQueryWrapper.orderByDesc(Answer::getGrade);
+        return this.getOne(lambdaQueryWrapper);
+
+
+
+
+
     }
 }

@@ -8,6 +8,7 @@ import com.code.pojo.Itemset;
 import com.code.pojo.User;
 import com.code.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -28,6 +29,7 @@ import java.util.Map;
  */
 @RestController
 @RequestMapping("/User")
+
 public class UserController {
 
 

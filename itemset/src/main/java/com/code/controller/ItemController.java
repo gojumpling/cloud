@@ -12,6 +12,7 @@ import com.code.client.AnswerClient;
 
 import kong.unirest.Unirest;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -32,6 +33,7 @@ import java.util.Map;
  */
 @RestController
 @RequestMapping("/Item")
+@CrossOrigin(origins = "*")
 public class ItemController {
 
 

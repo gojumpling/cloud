@@ -1,36 +1,6 @@
-2022-11-19 16:50:48,811 INFO Current addressing mode selection : StandaloneMemberLookup
+2022-12-17 17:13:41,366 INFO Current addressing mode selection : StandaloneMemberLookup
 
-2022-11-19 16:50:48,838 WARN [serverlist] updated to : [Member{ip='192.168.137.1', port=8848, state=UP, extendInfo={raftPort=7848}}]
+2022-12-17 17:13:41,375 WARN [serverlist] updated to : [Member{ip='192.168.2.12', port=8848, state=UP, extendInfo={raftPort=7848}}]
 
-2022-11-19 16:50:51,371 INFO This node is ready to provide external services
-
-2022-11-19 16:59:14,014 INFO Current addressing mode selection : StandaloneMemberLookup
-
-2022-11-19 16:59:14,021 WARN [serverlist] updated to : [Member{ip='192.168.137.1', port=8848, state=UP, extendInfo={raftPort=7848}}]
-
-2022-11-19 16:59:16,608 INFO This node is ready to provide external services
-
-2022-11-20 17:27:42,953 INFO Current addressing mode selection : StandaloneMemberLookup
-
-2022-11-20 17:27:42,958 WARN [serverlist] updated to : [Member{ip='10.86.89.104', port=8848, state=UP, extendInfo={raftPort=7848}}]
-
-2022-11-20 17:27:48,311 INFO This node is ready to provide external services
-
-2022-11-20 17:39:48,159 INFO Current addressing mode selection : StandaloneMemberLookup
-
-2022-11-20 17:39:48,169 WARN [serverlist] updated to : [Member{ip='10.86.89.104', port=8848, state=UP, extendInfo={raftPort=7848}}]
-
-2022-11-20 17:39:53,141 INFO This node is ready to provide external services
-
-2022-11-20 17:55:28,941 INFO Current addressing mode selection : StandaloneMemberLookup
-
-2022-11-20 17:55:28,948 WARN [serverlist] updated to : [Member{ip='10.86.89.104', port=8848, state=UP, extendInfo={raftPort=7848}}]
-
-2022-11-20 17:55:33,058 INFO This node is ready to provide external services
-
-2022-11-20 18:10:17,232 INFO Current addressing mode selection : StandaloneMemberLookup
-
-2022-11-20 18:10:17,237 WARN [serverlist] updated to : [Member{ip='10.86.89.104', port=8848, state=UP, extendInfo={raftPort=7848}}]
-
-2022-11-20 18:10:21,714 INFO This node is ready to provide external services
+2022-12-17 17:13:44,008 INFO This node is ready to provide external services
 

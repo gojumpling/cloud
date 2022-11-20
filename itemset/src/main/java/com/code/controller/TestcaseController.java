@@ -5,10 +5,7 @@ import com.code.pojo.Itemset;
 import com.code.pojo.Testcase;
 import com.code.service.TestcaseService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Map;
@@ -23,6 +20,7 @@ import java.util.Map;
  */
 @RestController
 @RequestMapping("/Testcase")
+@CrossOrigin(origins = "*")
 public class TestcaseController {
 
 
@@ -56,6 +54,15 @@ public class TestcaseController {
         return testcaseService.saveTestcase(testcase);
 
     }
+
+    @RequestMapping("/GetTestCase")
+    public List<Testcase> getTestCase(@RequestBody Map<String,Object> map){
+
+        String item_id = map.get("item_id").toString();
+        return testcaseService.getItemTestcase(item_id);
+
+    }
+
 
 }
 

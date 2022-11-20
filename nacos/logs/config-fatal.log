@@ -1,24 +1,4 @@
-2022-11-19 16:50:48,319 WARN [master-db] jdbc:mysql://120.25.192.9:3306/nacos_config?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC
+2022-12-17 17:13:41,021 WARN [master-db] jdbc:mysql://120.25.192.9:3306/nacos_config?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC
 
-2022-11-19 16:50:50,047 WARN isQuickStart:false
-
-2022-11-19 16:59:13,521 WARN [master-db] jdbc:mysql://120.25.192.9:3306/nacos_config?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC
-
-2022-11-19 16:59:15,380 WARN isQuickStart:false
-
-2022-11-20 17:27:42,051 WARN [master-db] jdbc:mysql://120.25.192.9:3306/nacos_config?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC
-
-2022-11-20 17:27:45,492 WARN isQuickStart:false
-
-2022-11-20 17:39:47,633 WARN [master-db] jdbc:mysql://120.25.192.9:3306/nacos_config?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC
-
-2022-11-20 17:39:50,062 WARN isQuickStart:false
-
-2022-11-20 17:55:28,497 WARN [master-db] jdbc:mysql://120.25.192.9:3306/nacos_config?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC
-
-2022-11-20 17:55:31,125 WARN isQuickStart:false
-
-2022-11-20 18:10:16,662 WARN [master-db] jdbc:mysql://120.25.192.9:3306/nacos_config?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC
-
-2022-11-20 18:10:19,404 WARN isQuickStart:false
+2022-12-17 17:13:42,516 WARN isQuickStart:false
 
