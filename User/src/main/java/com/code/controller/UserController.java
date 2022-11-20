@@ -60,7 +60,12 @@ public class UserController {
     }
 
 
-
+    /**
+     * 获取该班级下教师号
+     * 由获取我的题目集所调用
+     * @param map
+     * @return
+     */
     @RequestMapping("/TeacherNo")
     public List<User> getTeacherByClazz(@RequestBody Map<String,Object> map){
 
